@@ -21,9 +21,15 @@ Professor Peter Hunter, Editor in Chief; Director, Auckland Bioengineering Insti
 
 Dr David Nickerson, Physiome Aotearoa Fellow, Auckland Bioengineering Institute, University of Auckland
 
+Dr Shelley Fong, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
+
 Dr Karin Lundengård, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
 
 Dr Anand Rampadarath, Curator, Auckland Bioengineering Institute, University of Auckland
+
+Dr Weiwei Ai, Curator, Auckland Bioengineering Institute, University of Auckland
+
+Dr Nima Afshar Ghotli, Curator, Auckland Bioengineering Institute, University of Auckland
 
 
 ## Physiome Incorporated Society
