@@ -19,11 +19,17 @@ Dr Daniel Hook, Digital Science; Washington University in St Louis, Imperial Col
 ### *Physiome* Editors and Curators
 Professor Peter Hunter, Editor in Chief; Director, Auckland Bioengineering Institute, University of Auckland
 
-Dr David Nickerson, Physiome Aotearoa Fellow, Auckland Bioengineering Institute, University of Auckland
+Dr David Nickerson, Editor; Senior Research Fellow, Auckland Bioengineering Institute, University of Auckland
+
+Dr Shelley Fong, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
 
 Dr Karin Lundengård, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
 
 Dr Anand Rampadarath, Curator, Auckland Bioengineering Institute, University of Auckland
+
+Dr Weiwei Ai, Curator, Auckland Bioengineering Institute, University of Auckland
+
+Dr Nima Afshar Ghotli, Curator, Auckland Bioengineering Institute, University of Auckland
 
 
 ## Physiome Incorporated Society
