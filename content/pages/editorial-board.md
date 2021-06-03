@@ -23,14 +23,13 @@ Dr David Nickerson, Editor; Senior Research Fellow, Auckland Bioengineering Inst
 
 Dr Shelley Fong, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
 
-Dr Karin Lundengård, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
+Dr Karin Lundengård, Editor and Curator, Linköping University
 
 Dr Anand Rampadarath, Curator, Auckland Bioengineering Institute, University of Auckland
 
 Dr Weiwei Ai, Curator, Auckland Bioengineering Institute, University of Auckland
 
 Dr Nima Afshar Ghotli, Curator, Auckland Bioengineering Institute, University of Auckland
-
 
 ## Physiome Incorporated Society
 Physiome Incorporated is a non-for-profit incorporated society registered in New Zealand and tasked with managing the *Physiome* scientific journal. To become a member of Physiome Incorporated, please <a href = "mailto:d.nickerson@auckland.ac.nz?subject=Enquiry regarding membership of the Physiome Incorporated Society">contact the secretary Dr David Nickerson</a>.
@@ -40,8 +39,11 @@ Professor Poul Nielsen, Chair, Auckland Bioengineering Institute, University of 
 
 Dr David Nickerson, Secretary, Physiome Aotearoa Fellow, Auckland Bioengineering Institute, University of Auckland
 
-Dr Karin Lundengård, Treasurer, Auckland Bioengineering Institute, University of Auckland
+Dr Shelley Fong, Treasurer, Auckland Bioengineering Institute, University of Auckland
 
+Dr Karin Lundengård, Communications, Linköping University
+
+Dr Anand Rampadarath, Curation, Auckland Bioengineering Institute, University of Auckland
 
 ### Physiome Incorporated Founding members
 Professor Denis Noble, Physiome Project; Professor Emeritus, Oxford University
@@ -58,7 +60,7 @@ Dr Daniel Hook, Digital Science; Washington University in St Louis, Imperial Col
 
 Professor Poul Nielsen, Chair Physiome Incorporated; Auckland Bioengineering Institute, University of Auckland
 
-Dr David Nickerson, Editor *Physiome*, Secretary Physiome Incorporated; Physiome Aotearoa Fellow, Auckland Bioengineering Institute, University of Auckland
+Dr David Nickerson, Editor *Physiome*, Secretary Physiome Incorporated; Senior Research Fellow, Auckland Bioengineering Institute, University of Auckland
 
 Professor Jim Bassingthwaighte, Physiome Project;  Professor Emeritus, University of Washington, Department of Bioengineering
 
