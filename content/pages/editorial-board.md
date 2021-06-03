@@ -31,7 +31,6 @@ Dr Weiwei Ai, Curator, Auckland Bioengineering Institute, University of Auckland
 
 Dr Nima Afshar Ghotli, Curator, Auckland Bioengineering Institute, University of Auckland
 
-
 ## Physiome Incorporated Society
 Physiome Incorporated is a non-for-profit incorporated society registered in New Zealand and tasked with managing the *Physiome* scientific journal. To become a member of Physiome Incorporated, please <a href = "mailto:d.nickerson@auckland.ac.nz?subject=Enquiry regarding membership of the Physiome Incorporated Society">contact the secretary Dr David Nickerson</a>.
 
@@ -40,8 +39,11 @@ Professor Poul Nielsen, Chair, Auckland Bioengineering Institute, University of 
 
 Dr David Nickerson, Secretary, Physiome Aotearoa Fellow, Auckland Bioengineering Institute, University of Auckland
 
-Dr Karin Lundengård, Treasurer, Auckland Bioengineering Institute, University of Auckland
+Dr Shelley Fong, Treasurer, Auckland Bioengineering Institute, University of Auckland
 
+Dr Karin Lundengård, Communications, Linköping University
+
+Dr Anand Rampadarath, Curation, Auckland Bioengineering Institute, University of Auckland
 
 ### Physiome Incorporated Founding members
 Professor Denis Noble, Physiome Project; Professor Emeritus, Oxford University
