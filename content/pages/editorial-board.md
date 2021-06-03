@@ -23,7 +23,7 @@ Dr David Nickerson, Editor; Senior Research Fellow, Auckland Bioengineering Inst
 
 Dr Shelley Fong, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
 
-Dr Karin Lundengård, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
+Dr Karin Lundengård, Editor and Curator, Linköping University
 
 Dr Anand Rampadarath, Curator, Auckland Bioengineering Institute, University of Auckland
 
@@ -60,7 +60,7 @@ Dr Daniel Hook, Digital Science; Washington University in St Louis, Imperial Col
 
 Professor Poul Nielsen, Chair Physiome Incorporated; Auckland Bioengineering Institute, University of Auckland
 
-Dr David Nickerson, Editor *Physiome*, Secretary Physiome Incorporated; Physiome Aotearoa Fellow, Auckland Bioengineering Institute, University of Auckland
+Dr David Nickerson, Editor *Physiome*, Secretary Physiome Incorporated; Senior Research Fellow, Auckland Bioengineering Institute, University of Auckland
 
 Professor Jim Bassingthwaighte, Physiome Project;  Professor Emeritus, University of Washington, Department of Bioengineering
 
