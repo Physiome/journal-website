@@ -10,7 +10,7 @@ c:\journal-website-home\ $> pelican --debug --autoreload -r content -o output -s
 and then run a pelican server to host it from the output folder:
 
 ```
-c:\journal-webiste-home\output\ $> python -m pelican.server 1234
+c:\journal-website-home\output\ $> python -m pelican.server 1234
 ```
 
 (the output claims this is deprecated, but still seems to work.) Visit [localhost:1234](http://localhost:1234) to see the site. Pages will regenerate as needed.
