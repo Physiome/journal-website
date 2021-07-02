@@ -67,3 +67,6 @@ PAGE_SAVE_AS = '{slug}.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Google Analytics tracking ID
+GOOGLE_ANALYTICS = "UA-200859312-1"

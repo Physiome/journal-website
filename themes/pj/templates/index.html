@@ -39,15 +39,18 @@
 </div>
 
 <div style = "text-align: left; color:#580078">
-
     <h3>Latest articles</h3>
 
 
 
-    {{ pub.pubtable(articles_page.object_list[:9]) }}
+    {{ pub.pubtable(articles_page.object_list[:5]) }}
 
     
 
 </div>
+
+<!-- <a href="{{SITEURL}}/articles/" style="text-align: center; color:#580078; font-size:200%;"><i>View all articles</i></a> -->
+
+<a href="{{SITEURL}}/articles/"><p style="text-align: left; color:#580078;font-size:150%;"><i>View all articles</i></p></a>
 
 {% endblock %}
