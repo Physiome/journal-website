@@ -102,7 +102,7 @@ Submissions to *Physiome* can be made through our submission system:
 
  <div style = "text-align: center;">
  
-<a> <button type="button" style="background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" class="button">*Physiome* submission system</button> </a>
+<a> <button type="button" style="background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" class="button"><i>Physiome</i> submission system</button> </a>
 
   </div>
 
