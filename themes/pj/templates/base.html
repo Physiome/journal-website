@@ -5,50 +5,96 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" href="{{SITEURL}}/theme/css/foundation.min.css">
-    <link rel="icon" href="{{SITEURL}}/images/favicon.png">
+    <link rel="stylesheet" href="{{SITEURL}}/theme/css/foundation.min.css"/>
+    <link rel="icon" href="{{SITEURL}}/images/favicon.png"/>
     <link rel="stylesheet" href="{{SITEURL}}/theme/css/foundation-icons/foundation-icons.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet" />
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .sidebar {
+        height: 100%; /* Full-height: remove this if you want "auto" height */
+        width: 240px; /* Set the width of the sidebar */
+        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #111; /* Black */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 20px;
+        <!-- float: left; -->
+  }
+
+    .sidebar a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #818181;
+      display: block;
+    }
+
+    .sidebar a:hover {
+      color: #f1f1f1;
+    }
+
+    .main {
+      margin-left: 240px; /* Same as the width of the sidenav */
+      padding: 0px 10px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }
+    </style>
   </head>
-  <body style="height: 100%; display: flex; flex-direction: column">
+    <body style="height: 100%; display: flex; flex-direction: column">
+
     <!-- Top navigation bar -->
       <div class="row">
-	<div class="small-12 columns"></div>
+        <div class="small-12 columns"></div>
       </div>
-    </a>
+
     <div style="background-color: white;">
       <div class="row">
-	<div class="small-8 column"><a href="{{SITEURL}}/"><img src="{{SITEURL}}/theme/images/Physiome-beside-middle.png" alt="Physiome logo" style="width:100%;height:100%;"></a><span style="margin-left:10px"></span></div>
-	<div class="small-4 column" style="text-align:right">
-	</div>
-      </div>
+        <div class="small-8 column"><a href="{{SITEURL}}/"><img src="{{SITEURL}}/theme/images/Physiome-beside-middle.png" alt="Physiome logo" style="width:100%;height:100%;"></a><span style="margin-left:10px"></span></div>
+            <div class="small-4 column" style="text-align:right">
+            </div>
+        </div>
     </div>
-    <div style="background-color: #000000;">
+<!--     <div style="background-color: #000000;">
       <div class="row">
-	<div class="small-12 column">
-	  <div class="top-bar" style="background-color: #000000;">
+        <div class="small-12 column">
+          <div class="top-bar" style="background-color: #000000;">
 	    <div class="top-bar-left">
 	      <ul class="menu" style="background-color: #000000;">
 		<li><a href="{{SITEURL}}/" style=" color:white;">Home</a></li>
-		<li><a href="{{SITEURL}}/physiome-project.html" style=" color:white;">The Physiome Project</a></li>
-		<li><a href="{{SITEURL}}/about.html" style=" color:white;">About the Journal</a></li>
-        <li><a href="{{SITEURL}}/instructions-to-authors.html" style=" color:white;">Author instructions</a></li>
-	      </ul>
-	    </div>
-	    <div class="top-bar-right">
-	      <ul class="menu" style="background-color: #000000;">
+		<!-- <li><a href="{{SITEURL}}/physiome-project.html" style=" color:white;">The Physiome Project</a></li> 
+		<!-- <li><a href="{{SITEURL}}/about.html" style=" color:white;">About the Journal</a></li> 
+        <!-- <li><a href="{{SITEURL}}/instructions-to-authors.html" style=" color:white;">Author instructions</a></li> 
         <li><a href="{{SITEURL}}/articles/" style=" color:white;">Articles</a></li>
+        <li><a href="{{SITEURL}}/faqs.html" style=" color:white;">FAQ</a></li>
 	      </ul>
 	    </div>
-
-	  </div>
-	</div>
+ 
+            </div>
+        </div>
       </div>
     </div>
+-->
+   <div class="sidebar">
+      <a href="{{SITEURL}}/">Home</a>
+      <a href="{{SITEURL}}/instructions-to-authors.html">For Authors</a>
+      <a href="{{SITEURL}}/editorial-board.html"> Editorial Board</a>
+      <a href="{{SITEURL}}/about.html"> About the Journal</a>
+      <a href="{{SITEURL}}/physiome-project.html"> The Physiome Project</a>
+      <a href="{{SITEURL}}/articles/">Published articles</a>
+      <a href="{{SITEURL}}/faqs.html">FAQs</a>
+    </div>
+
     <!-- Body -->
-    <div class="body" style="margin-top:20px; flex: 1 0 auto">
+    <div class="main" style="margin-top:20px; flex: 1 0 auto">
       <div class="row">
 
 	{% block body %}
