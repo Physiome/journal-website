@@ -14,13 +14,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
       .sidebar {
-        height: 100%; /* Full-height: remove this if you want "auto" height */
+        height: 100%; /* Full-height: do not remove */
         width: 240px; /* Set the width of the sidebar */
         position: fixed; /* Fixed Sidebar (stay in place on scroll) */
         z-index: 1; /* Stay on top */
         top: 0; /* Stay at the top */
         left: 0;
-        background-color: #111; /* Black */
+        background-color: black; 
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 20px;
         <!-- float: left; -->
@@ -30,7 +30,7 @@
       padding: 6px 8px 6px 16px;
       text-decoration: none;
       font-size: 20px;
-      color: #818181;
+      color: #ccb2d6;
       display: block;
     }
 
@@ -58,11 +58,19 @@
 
     <div style="background-color: white;">
       <div class="row">
-        <div class="small-8 column"><a href="{{SITEURL}}/"><img src="{{SITEURL}}/theme/images/Physiome-beside-middle.png" alt="Physiome logo" style="width:100%;height:100%;"></a><span style="margin-left:10px"></span></div>
+        <div class="small-10 column"><a href="{{SITEURL}}/"><img src="{{SITEURL}}/theme/images/Physiome-beside-middle.png" alt="Physiome logo" style="width:100%;height:100%; padding: 1px 1px 1px 180px;"></a><span style="margin-left:10px"></span></div>
             <div class="small-4 column" style="text-align:right">
             </div>
         </div>
     </div>
+<!--     <div style="background-color: white;">
+      <div class="row">
+        <div class="small-11 column"><a href="{{SITEURL}}/"><img src="{{SITEURL}}/theme/images/Physiome-beside-middle.png" alt="Physiome logo" style="width:100%;height:100%; padding: 1px 1px 1px 320px;"></a><span style="margin-left:10px"></span></div>
+            <div class="small-4 column" style="text-align:right">
+            </div>
+        </div>
+    </div>
+ -->
 <!--     <div style="background-color: #000000;">
       <div class="row">
         <div class="small-12 column">
@@ -90,7 +98,7 @@
       <a href="{{SITEURL}}/about.html"> About the Journal</a>
       <a href="{{SITEURL}}/physiome-project.html"> The Physiome Project</a>
       <a href="{{SITEURL}}/articles/">Published articles</a>
-      <a href="{{SITEURL}}/faqs.html">FAQs</a>
+      <!-- <a href="{{SITEURL}}/faqs.html">FAQs</a> -->
     </div>
 
     <!-- Body -->
