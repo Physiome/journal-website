@@ -1,7 +1,10 @@
 Title: Editorial Board
 Slug: editorial-board
 
-## *Physiome* 
+<!-- ### __*Physiome*__ -->
+<div style = "text-align: left;font-size:170%"> 
+<h1 style="color:#580078"><i>Physiome</i></strong></h1>
+</div>
 
 ### *Physiome* Editorial Board
 Professor Denis Noble, Professor Emeritus, Oxford University
@@ -31,7 +34,11 @@ Dr Weiwei Ai, Curator, Auckland Bioengineering Institute, University of Auckland
 
 Dr Nima Afshar Ghotli, Curator, Auckland Bioengineering Institute, University of Auckland
 
-## Physiome Incorporated Society
+<!-- ### __Physiome Incorporated Society__ -->
+<div style = "text-align: left;font-size:170%"> 
+<h1 style="color:#580078"><strong>Physiome Incorporated Society</strong></h1>
+</div>
+
 Physiome Incorporated is a non-for-profit incorporated society registered in New Zealand and tasked with managing the *Physiome* scientific journal. To become a member of Physiome Incorporated, please <a href = "mailto:d.nickerson@auckland.ac.nz?subject=Enquiry regarding membership of the Physiome Incorporated Society">contact the secretary Dr David Nickerson</a>.
 
 ### Physiome Incorporated Executive Committee
