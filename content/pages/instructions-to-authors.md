@@ -9,9 +9,9 @@ Please <a style="color:#580078" href = "mailto:physiome@physiomeproject.org">con
 
  <div style = "text-align: center;">
 
-<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv" class="button">*Physiome* Overleaf template</a>
+<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv" class="button"><i>Physiome</i> Overleaf template</a>
 
-<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" class="button">*Physiome* submission system</a>
+<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" class="button"><i>Physiome</i> submission system</a>
 
   </div>
 
@@ -47,7 +47,7 @@ The *Physiome* submission must include all the resources required to evaluate th
 
 Every Original or Retrospective submission in *Physiome* must be associated with at least one Primary Publication. It is encouraged that the authors of the Primary Publication are included as authors in the *Physiome* paper. The *Physiome* team can help with reaching out to them if needed.
 
-A *Physiome* article consists of a description and the code of a reproducible implementation of the model. Such resources can be directly included in the zip archive submitted to *Physiome*, or linked to via appropriate online repositories or databases. A list of the databases used by *Physiome* can be found under "Submission". While there are many different types of models, file types and structures used by modelers, there are some items which are common to all *Physiome* submissions. These are:
+A *Physiome* article consists of a description and the code of a reproducible implementation of the model. Such resources can be directly included in the ZIP archive submitted to *Physiome*, or linked to via appropriate online repositories or databases. A list of the databases used by *Physiome* can be found under "Submission". While there are many different types of models, file types and structures used by modelers, there are some items which are common to all *Physiome* submissions. These are:
 
 A manuscript, which should be prepared using the <a style="color:#580078" href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv">*Physiome* Overleaf template</a> and submitted as the downloaded source. The manuscript must include i) a summary of the background, purpose and modifications of the model, ii) all instructions needed to run the implemented files, and, iii) clearly stated reproducibility goals that overlap with the results shown in the Primary Publication.
 
@@ -145,7 +145,7 @@ This list details the curators' presence in various popular repositories. If you
 ### 5. Curation
 The *Physiome* curators will check the reproducibility of your model by running the model implementation provided in the submission and compare the results to the primary paper as stated through the reproducibility goals specified in the *Physiome* manuscript. If the model can not reproduce the results, or if there are any other problems with running the files, the curator will contact the submitting author with their concerns. In cases where the model or simulation implementation could be encoded in one of the *Physiome* standards, the curators will help provide the author with information about how this could be done (including direct assistance if resource permits).
 
-*Physiome* articles are published on <a style="color:#580078" href="http://physiome.figshare.com/">figshare</a> as a pdf manuscript containing all the information needed to run the implementation of the model, and an <a style="color:#580078" href="http://co.mbine.org/standards/omex">omex archive</a> containing the model implementation (which can be opened by any type of zip reader).
+*Physiome* articles are published on <a style="color:#580078" href="http://physiome.figshare.com/">figshare</a> as a pdf manuscript containing all the information needed to run the implementation of the model, and an <a style="color:#580078" href="http://co.mbine.org/standards/omex">OMEX archive</a> containing the model implementation (which can be opened by any type of ZIP reader).
 
 *Physiome* will collaborate with the <a style="color:#580078" href="http://reproduciblebiomodels.org">Center for Reproducible Biomedical Modeling</a>, to produce a reproducibility report for every *Physiome* article. This report will detail the different aspects of the model’s reproducibility and repeatability and will be attached at the end of the finalized manuscript.
 
