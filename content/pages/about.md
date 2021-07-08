@@ -1,10 +1,10 @@
 Title: About the Journal
 Slug: about
        
-About the Journal
+<!-- About the Journal
 -----------------
 Meet our <a style="color:#580078" href="editorial-board.html">Editorial Board.</a>
-
+ -->
 ### Scope
 
 *Physiome* publishes articles describing physiological models which demonstrate that the mathematical model, model implementation, and simulation results are consistent and reproducible. *Physiome* articles must be linked to primary papers published in or accepted to a peer-reviewed physiology, bioengineering or biophysics journal.
