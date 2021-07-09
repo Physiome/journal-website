@@ -31,5 +31,8 @@ Each article has a DOI unique to it - it is not the same as the primary publicat
 We are currently an online-only journal, publishing as soon as submissions are curated.
        
 <div style = "text-align: center;"> 
-<a style="color:#580078" href = "mailto:physiome@physiomeproject.org"><strong>Can't find your question? Please contact us.</strong></a>
+<a style="color:#580078" href = "mailto:physiome@physiomeproject.org"><strong>Can't find your question? Please contact us.  </strong></a>
+
 </div>
+
+<br /> 
