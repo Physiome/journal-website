@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet" />
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">     -->
     <style>
       .sidebar {
         height: 100%; /* Full-height: do not remove */
@@ -26,21 +26,54 @@
         <!-- float: left; -->
   }
 
-    .sidebar a {
+<!--     .sidebar a {
       padding: 6px 8px 6px 16px;
       text-decoration: none;
       font-size: 20px;
       color: #ccb2d6;
       display: block;
     }
-
+ -->
     .sidebar a:hover {
       color: #f1f1f1;
     }
 
+    /* Style the sidebar links and the dropdown button */
+    .sidebar a, .dropdown-btn {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #ccb2d6;
+      display: block;
+      border: none;
+      background: none;
+      width:100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+    }
+
+    /* Add an active class to the active dropdown button */
+    .active {
+      background-color: green;
+      color: white;
+    }
+
+    .dropdown-container {
+<!--       display: none; -->      
+      background-color: #262626;
+      padding-left: 12px;
+    }
+
+    /* Optional: Style the caret down icon */
+    .fa-caret-down {
+      float: right;
+      padding-right: 8px;
+    }
     .main {
       margin-left: 200px; /* Same as the width of the sidenav */
       padding: 0px 10px;
+
     }
 
     @media screen and (max-height: 450px) {
@@ -72,9 +105,18 @@
         </div>
     </div>
  -->
-   <div class="sidebar">
+   <div class="sidebar">   
       <a href="{{SITEURL}}/">Home</a>
-      <a href="{{SITEURL}}/about.html"> About the Journal</a>
+      <a href="{{SITEURL}}/about.html" class="dropdown-btn"> About the Journal</a>
+<!--       <button class="dropdown-btn">About DROPDOWEN
+        <i class="fa fa-caret-down"></i>
+      </button>
+ -->      
+      <div class="dropdown-container">
+        <a href="{{SITEURL}}/about.html#scope"> Scope</a>
+        <a href="{{SITEURL}}/about.html#philosophy"> <i>Physiome</i> Philosophy</a>
+        <a href="{{SITEURL}}/about.html#definitions"> Definitions</a>
+      </div>
       <a href="{{SITEURL}}/instructions-to-authors.html">For Authors</a>
       <a href="{{SITEURL}}/articles/">Published articles</a>
       <a href="{{SITEURL}}/editorial-board.html"> Editorial Board</a>
