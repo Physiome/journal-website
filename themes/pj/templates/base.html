@@ -5,50 +5,136 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" href="{{SITEURL}}/theme/css/foundation.min.css">
-    <link rel="icon" href="{{SITEURL}}/images/favicon.png">
+    <link rel="stylesheet" href="{{SITEURL}}/theme/css/foundation.min.css"/>
+    <link rel="icon" href="{{SITEURL}}/images/favicon.png"/>
     <link rel="stylesheet" href="{{SITEURL}}/theme/css/foundation-icons/foundation-icons.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet" />
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .sidebar {
+        height: 100%; /* Full-height: do not remove */
+        width: 190px; /* Set the width of the sidebar */
+        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: black; 
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 20px;
+        <!-- float: left; -->
+  }
+
+    .sidebar a:hover, .dropdown:hover .dropdown-btn {
+      color: #f1f1f1;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      padding-bottom: 10px;
+      padding-right: 10px;
+    }
+
+    /* Style the sidebar links and the dropdown button */
+    .sidebar a, .dropdown-btn {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #ccb2d6;
+      display: block;
+      border: none;
+      background: none;
+      width:100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .dropdown-container {
+      display: none;      
+      background-color: #262626;
+      padding-left: 12px;
+    }
+
+    .dropdown-container a {
+      font-size: 16px;
+    }
+    
+    .dropdown:hover .dropdown-container {
+      display: block;
+    }
+    .fa-caret-down a{
+      float: right;
+    }
+    .main {
+      margin-left: 190px; /* Same as the width of the sidenav */
+      padding: 0px 10px;
+
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }
+    </style>
   </head>
-  <body style="height: 100%; display: flex; flex-direction: column">
+    <body style="height: 100%; display: flex; flex-direction: column">
+
     <!-- Top navigation bar -->
       <div class="row">
-	<div class="small-12 columns"></div>
+        <div class="small-12 columns"></div>
       </div>
-    </a>
+
     <div style="background-color: white;">
       <div class="row">
-	<div class="small-8 column"><a href="{{SITEURL}}/"><img src="{{SITEURL}}/theme/images/Physiome-beside-middle.png" alt="Physiome logo" style="width:100%;height:100%;"></a><span style="margin-left:10px"></span></div>
-	<div class="small-4 column" style="text-align:right">
-	</div>
-      </div>
+        <div a href="{{SITEURL}}/"><img src="{{SITEURL}}/theme/images/Physiome-beside-middle.png" alt="Physiome logo" style="width:100%;height:100%; padding: 1px 1px 1px 250px;">
+        </a><span style="margin-left:10px"></span></div>
+            <div class="small-4 column" style="text-align:right">
+            </div>
+        </div>
     </div>
-    <div style="background-color: #000000;">
+<!--     <div style="background-color: white;">
       <div class="row">
-	<div class="small-12 column">
-	  <div class="top-bar" style="background-color: #000000;">
-	    <div class="top-bar-left">
-	      <ul class="menu" style="background-color: #000000;">
-		<li><a href="{{SITEURL}}/" style=" color:white;">Home</a></li>
-		<li><a href="{{SITEURL}}/physiome-project.html" style=" color:white;">The Physiome Project</a></li>
-		<li><a href="{{SITEURL}}/about.html" style=" color:white;">About the Journal</a></li>
-        <li><a href="{{SITEURL}}/instructions-to-authors.html" style=" color:white;">Author instructions</a></li>
-	      </ul>
-	    </div>
-	    <div class="top-bar-right">
-	      <ul class="menu" style="background-color: #000000;">
-        <li><a href="{{SITEURL}}/articles/" style=" color:white;">Articles</a></li>
-	      </ul>
-	    </div>
-
-	  </div>
-	</div>
-      </div>
+        <div class="small-11 column"><a href="{{SITEURL}}/"><img src="{{SITEURL}}/theme/images/Physiome-beside-middle.png" alt="Physiome logo" style="width:100%;height:100%; padding: 1px 1px 1px 320px;"></a><span style="margin-left:10px"></span></div>
+            <div class="small-4 column" style="text-align:right">
+            </div>
+        </div>
     </div>
+ -->
+   <div class="sidebar">   
+      <a href="{{SITEURL}}/">Home</a>
+      <div class="dropdown">
+          <a href="{{SITEURL}}/about.html" class="dropdown-btn"> About the Journal <i class="fa fa-caret-down"></i></a>
+          <div class="dropdown-container">
+            <a href="{{SITEURL}}/about.html#scope"> Scope</a>
+            <a href="{{SITEURL}}/about.html#philosophy"> <i>Physiome</i> Philosophy</a>
+            <a href="{{SITEURL}}/about.html#definitions"> Definitions</a>
+          </div>
+      </div>  
+      <div class="dropdown">
+          <a href="{{SITEURL}}/instructions-to-authors.html" class="dropdown-btn"> For Authors <i class="fa fa-caret-down"></i></a>
+          <div class="dropdown-container">
+            <a href="{{SITEURL}}/instructions-to-authors.html#primary"> Primary Publication</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#types"> Types of submissions</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#preparing"> Preparing your submission</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#submission"> Submission</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#curation"> Curation</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#cost"> Cost</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#copyright"> Copyright</a>
+          </div>
+      </div>  
+
+      <a href="{{SITEURL}}/articles/">Published articles</a>
+      <a href="{{SITEURL}}/editorial-board.html"> Editorial Board</a>
+      <a href="{{SITEURL}}/physiome-project.html"> The Physiome Project</a>
+      <a href="{{SITEURL}}/faqs.html">FAQs</a>
+      <a href="{{SITEURL}}/contact-us.html">Contact us</a>
+    </div>
+
     <!-- Body -->
-    <div class="body" style="margin-top:20px; flex: 1 0 auto">
+    <div class="main" style="margin-top:20px; flex: 1 0 auto">
       <div class="row">
 
 	{% block body %}
@@ -72,9 +158,9 @@
           }
       </style>
   <footer>
-      <span style="display: block; color: white">Contact us: <a style="color:white; text-decoration: underline;" href="mailto:physiome@physiomeproject.org">physiome@physiomeproject.org</a></span>
-      <span style="display: block; color: white">Meet our <a style="color:white; text-decoration: underline" href="{{SITEURL}}/editorial-board.html">Editorial Board</a></span>
-      <span style="display: block; colour: white;">Supported by:</span>
+      <!-- <span style="display: block; color: white">Contact us: <a style="color:white; text-decoration: underline;" href="mailto:physiome@physiomeproject.org">physiome@physiomeproject.org</a></span> -->
+      <!-- <span style="display: block; color: white">Meet our <a style="color:white; text-decoration: underline" href="{{SITEURL}}/editorial-board.html">Editorial Board</a></span> -->
+      <span style="display: block; colour: white; margin-left:190px">Supported by</span>
       <p><a href="http://www.iups.org/"><img src="{{SITEURL}}/theme/images/IUPS_white.png" alt="Physiome logo" style="width:7%;height:7%;"></a> <a href="https://www.vph-institute.org/"><img src="{{SITEURL}}/theme/images/Horizonal_Online.png" alt="VPH logo" style="width:13%;height:13%;"></a> <a href="https://www.auckland.ac.nz/en/abi.html"><img src="{{SITEURL}}/theme/images/abi-hc-rgb-white.png" alt="ABI logo" style="width:30%;height:30%;"></a> <a href="https://www.digital-science.com/"><img src="{{SITEURL}}/theme/images/ds-logo-bw.png" alt="Digital Science logo" style="width:15%;height:15%;"></a></p>
   </footer>
   
