@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet" />
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">-->
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
       .sidebar {
         height: 100%; /* Full-height: do not remove */
-        width: 200px; /* Set the width of the sidebar */
+        width: 190px; /* Set the width of the sidebar */
         position: fixed; /* Fixed Sidebar (stay in place on scroll) */
         z-index: 1; /* Stay on top */
         top: 0; /* Stay at the top */
@@ -26,16 +26,15 @@
         <!-- float: left; -->
   }
 
-<!--     .sidebar a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 20px;
-      color: #ccb2d6;
-      display: block;
-    }
- -->
-    .sidebar a:hover {
+    .sidebar a:hover, .dropdown:hover .dropdown-btn {
       color: #f1f1f1;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      padding-bottom: 10px;
+      padding-right: 10px;
     }
 
     /* Style the sidebar links and the dropdown button */
@@ -53,25 +52,24 @@
       outline: none;
     }
 
-    /* Add an active class to the active dropdown button */
-    .active {
-      background-color: green;
-      color: white;
-    }
-
     .dropdown-container {
-<!--       display: none; -->      
+      display: none;      
       background-color: #262626;
       padding-left: 12px;
     }
 
-    /* Optional: Style the caret down icon */
+    .dropdown-container a {
+      font-size: 16px;
+    }
+    
+    .dropdown:hover .dropdown-container {
+      display: block;
+    }
     .fa-caret-down {
       float: right;
-      padding-right: 8px;
     }
     .main {
-      margin-left: 200px; /* Same as the width of the sidenav */
+      margin-left: 190px; /* Same as the width of the sidenav */
       padding: 0px 10px;
 
     }
@@ -107,16 +105,18 @@
  -->
    <div class="sidebar">   
       <a href="{{SITEURL}}/">Home</a>
-      <a href="{{SITEURL}}/about.html" class="dropdown-btn"> About the Journal</a>
-<!--       <button class="dropdown-btn">About DROPDOWEN
-        <i class="fa fa-caret-down"></i>
-      </button>
- -->      
-      <div class="dropdown-container">
-        <a href="{{SITEURL}}/about.html#scope"> Scope</a>
-        <a href="{{SITEURL}}/about.html#philosophy"> <i>Physiome</i> Philosophy</a>
-        <a href="{{SITEURL}}/about.html#definitions"> Definitions</a>
-      </div>
+      <div class="dropdown">
+          <!-- <a href="{{SITEURL}}/about.html" class="dropdown-btn"> About the Journal</a> -->
+          <button class="dropdown-btn">About the Journal 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          
+          <div class="dropdown-container">
+            <a href="{{SITEURL}}/about.html#scope"> Scope</a>
+            <a href="{{SITEURL}}/about.html#philosophy"> <i>Physiome</i> Philosophy</a>
+            <a href="{{SITEURL}}/about.html#definitions"> Definitions</a>
+          </div>
+      </div>  
       <a href="{{SITEURL}}/instructions-to-authors.html">For Authors</a>
       <a href="{{SITEURL}}/articles/">Published articles</a>
       <a href="{{SITEURL}}/editorial-board.html"> Editorial Board</a>
@@ -152,7 +152,7 @@
   <footer>
       <!-- <span style="display: block; color: white">Contact us: <a style="color:white; text-decoration: underline;" href="mailto:physiome@physiomeproject.org">physiome@physiomeproject.org</a></span> -->
       <!-- <span style="display: block; color: white">Meet our <a style="color:white; text-decoration: underline" href="{{SITEURL}}/editorial-board.html">Editorial Board</a></span> -->
-      <span style="display: block; colour: white; margin-left:200px">Supported by</span>
+      <span style="display: block; colour: white; margin-left:190px">Supported by</span>
       <p><a href="http://www.iups.org/"><img src="{{SITEURL}}/theme/images/IUPS_white.png" alt="Physiome logo" style="width:7%;height:7%;"></a> <a href="https://www.vph-institute.org/"><img src="{{SITEURL}}/theme/images/Horizonal_Online.png" alt="VPH logo" style="width:13%;height:13%;"></a> <a href="https://www.auckland.ac.nz/en/abi.html"><img src="{{SITEURL}}/theme/images/abi-hc-rgb-white.png" alt="ABI logo" style="width:30%;height:30%;"></a> <a href="https://www.digital-science.com/"><img src="{{SITEURL}}/theme/images/ds-logo-bw.png" alt="Digital Science logo" style="width:15%;height:15%;"></a></p>
   </footer>
   
