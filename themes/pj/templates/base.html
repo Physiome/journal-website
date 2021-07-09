@@ -65,7 +65,7 @@
     .dropdown:hover .dropdown-container {
       display: block;
     }
-    .fa-caret-down {
+    .fa-caret-down a{
       float: right;
     }
     .main {
@@ -106,18 +106,26 @@
    <div class="sidebar">   
       <a href="{{SITEURL}}/">Home</a>
       <div class="dropdown">
-          <!-- <a href="{{SITEURL}}/about.html" class="dropdown-btn"> About the Journal</a> -->
-          <button class="dropdown-btn">About the Journal 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          
+          <a href="{{SITEURL}}/about.html" class="dropdown-btn"> About the Journal <i class="fa fa-caret-down"></i></a>
           <div class="dropdown-container">
             <a href="{{SITEURL}}/about.html#scope"> Scope</a>
             <a href="{{SITEURL}}/about.html#philosophy"> <i>Physiome</i> Philosophy</a>
             <a href="{{SITEURL}}/about.html#definitions"> Definitions</a>
           </div>
       </div>  
-      <a href="{{SITEURL}}/instructions-to-authors.html">For Authors</a>
+      <div class="dropdown">
+          <a href="{{SITEURL}}/instructions-to-authors.html" class="dropdown-btn"> For Authors <i class="fa fa-caret-down"></i></a>
+          <div class="dropdown-container">
+            <a href="{{SITEURL}}/instructions-to-authors.html#primary"> Primary Publication</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#types"> Types of submissions</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#preparing"> Preparing your submission</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#submission"> Submission</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#curation"> Curation</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#cost"> Cost</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#copyright"> Copyright</a>
+          </div>
+      </div>  
+
       <a href="{{SITEURL}}/articles/">Published articles</a>
       <a href="{{SITEURL}}/editorial-board.html"> Editorial Board</a>
       <a href="{{SITEURL}}/physiome-project.html"> The Physiome Project</a>

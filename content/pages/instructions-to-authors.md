@@ -15,11 +15,12 @@ Please <a style="color:#580078" href = "mailto:physiome@physiomeproject.org">con
 
   </div>
 
-### 1. Primary Publication
+<h3 id="primary">Primary Publication</h3>
+
 Every *Physiome* original or retrospective article needs to be associated with one or more Primary Publications. The Primary Publication is an experimental/modelling paper describing the model(s), that has been accepted to a peer-reviewed journal in the field of physiological modelling. The Primary Publication shows that the model is validated by describing the experiments and data, and the model(s) fit to the data, as well as the biological background and why the model is important. *Physiome* articles focus on reproducibility and reuse, but do not deal with the validation or scientific relevance of the models, as this is already reviewed in the Primary Paper.
 
 
-### 2. Types of submissions
+<h3 id="types">Types of submissions</h3>
 
 The following types of submissions will be considered for publication in *Physiome*. 
 
@@ -40,7 +41,7 @@ The *Physiome* editorial board may solicit review submissions that document a ra
 A *Physiome* letter is an original submission that provides new insights about, or refinement of, a model that is already published in *Physiome*. This format allows publication of material that in itself may not justify a separate submission to a primary peer-reviewed journal, but which may still be highly instrumental for improving an existing model, expand its empirical scope or invoke experimental and theoretical research that may drive new model development. Examples of such material include, but are not restricted to, experimental measurements of important parameter values that have been only indirectly estimated in the original paper, empirically or theoretically justified questioning or refutation of critical model premises, experimental data confirming or refuting model predictions, and theoretical analyses of the model that provide novel insights that may spur further model development or experimental work.
 
 
-### 3. Preparing your submission
+<h3 id="preparing">Preparing your submission</h3>
 
 What to include in your Original or Retrospective submission:
 The *Physiome* submission must include all the resources required to evaluate the reproducibility, reusability, and discoverability of the model. 
@@ -97,7 +98,8 @@ These sections are not required, but may be added before the list of references.
 </ul>
 
 
-### 4. Submission
+<h3 id="submission">Submission</h3>
+
 Submissions to *Physiome* can be made through our submission system:
 
  <div style = "text-align: center;">
@@ -142,7 +144,7 @@ This list details the curators' presence in various popular repositories. If you
 </ul>
 
 
-### 5. Curation
+<h3 id="curation">Curation</h3>
 The *Physiome* curators will check the reproducibility of your model by running the model implementation provided in the submission and compare the results to the primary paper as stated through the reproducibility goals specified in the *Physiome* manuscript. If the model can not reproduce the results, or if there are any other problems with running the files, the curator will contact the submitting author with their concerns. In cases where the model or simulation implementation could be encoded in one of the *Physiome* standards, the curators will help provide the author with information about how this could be done (including direct assistance if resource permits).
 
 *Physiome* articles are published on <a style="color:#580078" href="http://physiome.figshare.com/">figshare</a> as a pdf manuscript containing all the information needed to run the implementation of the model, and an <a style="color:#580078" href="http://co.mbine.org/standards/omex">OMEX archive</a> containing the model implementation (which can be opened by any type of ZIP reader).
@@ -152,11 +154,11 @@ The *Physiome* curators will check the reproducibility of your model by running 
 We store only the information you submit to us, which includes your <a style="color:#580078" href="https://orcid.org/">ORCID</a>, your name and email address. Submission data are stored locally on the submission system while we rely on a private <a style="color:#580078" href="https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html">Amazon S3 bucket</a> to store files you submit to us. No payment information will be stored by us, as this is managed through <a style="color:#580078" href="https://stripe.com/">Stripe</a>, our payment provider. Personal information will only be used for attribution of the research work being published.
 
 
-### 6. Cost
+<h3 id="cost">Cost</h3>
 *Physiome* articles are curated and published as open access with a DOI citable as a journal article, with an author processing charge of US$300. The fee is to be paid after acceptance of the submission, but before publication.
 
 
-### 7. Copyright of submission
+<h3 id="copyright">Copyright of submission</h3>
 *Physiome* supports open science and the idea that authors should retain the rights to their own works. Therefore, our copyright policy is the following:
 
 (a) The authors grant to the *Physiome* the right to publish and communicate Works to the public in electronic form under one of the following <a style="color:#580078" href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons licenses.</a>
