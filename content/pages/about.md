@@ -2,13 +2,12 @@ Title: About the Journal
 Slug: about
        
 <h3 id="scope">Scope</h3>
-
 *Physiome* publishes articles describing physiological models which demonstrate that the mathematical model, model implementation, and simulation results are consistent and reproducible. *Physiome* articles must be linked to primary papers published in or accepted to a peer-reviewed physiology, bioengineering or biophysics journal.
 
 Submissions must include sufficient information that independent *Physiome* curators are able to evaluate the consistency and reproducibility of the model, its implementation, and the simulations that are performed in producing the simulation results.
 
 
-### *Physiome* Philosophy
+<h3 id="philosophy"><i>Physiome</i> Philosophy</h3>
 Scientific research pushes the boundaries of human knowledge, but for knowledge to be useful, reproducibility and reuse must be core values. Reproducibility as confirmation of results should be one of the supporting pillars of good research. Yet, the demonstration and publication of reproducibility is rarely incentivised, and is often treated as a secondary result at best, which undermines the quality of our collective work. With the strict formulation of equations and easily shareable code, one would think that mathematical models should be reproducible by default. However, when tested by the Center for Reproducible Biomedical Modeling, less than 5<span>&hairsp;</span></td></tr>% of the models published in scientific journals could be implemented by another group. Physiome is a journal committed to reproducibility and reusability of mathematical models of physiological processes. A *Physiome* publication is a complement to your primary article that ensures reproducibility, reusability and discoverability of your model.
 
 *Physiome* articles describe the details of mathematical models and computational simulations associated with a ‘primary’ experimental/modelling paper that has been published (or accepted for publication) in a peer-reviewed physiology, bioengineering or biophysics journal. Submissions to *Physiome* are evaluated to determine their reproducibility, reusability, and discoverability. At a minimum, accepted submissions are guaranteed to be in an executable state that reproduces the modelling predictions in the primary paper, and are archived for permanent open access by the community. *Physiome* articles are published on <a style="color:#580078" href="http://physiome.figshare.com/">figshare</a> as a pdf manuscript containing all the information needed to run the implementation of the model, and an <a style="color:#580078" href="http://co.mbine.org/standards/omex">omex archive</a> containing the model implementation (which can be opened by any type of zip reader). 
@@ -42,7 +41,7 @@ The model obeys physical laws such as conservation of energy and conservation of
 Ideally all models would reach level 4, but we realise that this is unrealistic, at least in the short term. We hope that over time the Physiome community will increasingly come to expect models to adopt these high standards and that software will be developed to make it easier for authors to achieve that goal.    
 
 
-### Definitions
+<h3 id="definitions">Definitions</h3>
 
 
 A model simulation is **repeatable** when re-running it produces a consistent result. 
