@@ -1,6 +1,8 @@
 Title: Instructions to Authors
 Slug: instructions-to-authors
 
+<h3 id="primary"> </h3>
+
 Instructions to Authors
 -----------------------
 
@@ -14,8 +16,7 @@ Please <a style="color:#580078" href = "mailto:physiome@physiomeproject.org">con
 <a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" class="button"><i>Physiome</i> submission system</a>
 
   </div>
-
-<h3 id="primary">Primary Publication</h3>
+### Primary Publication
 
 Every *Physiome* original or retrospective article needs to be associated with one or more Primary Publications. The Primary Publication is an experimental/modelling paper describing the model(s), that has been accepted to a peer-reviewed journal in the field of physiological modelling. The Primary Publication shows that the model is validated by describing the experiments and data, and the model(s) fit to the data, as well as the biological background and why the model is important. *Physiome* articles focus on reproducibility and reuse, but do not deal with the validation or scientific relevance of the models, as this is already reviewed in the Primary Paper.
 
