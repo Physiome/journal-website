@@ -50,6 +50,21 @@
       cursor: pointer;
     }
 
+    .dropbtn_bottom {
+      background-color;
+      color: #ccb2d6;
+      padding: 6px 8px 6px 16px;
+      font-size: 20px;
+      width:100%;
+      text-align: left;
+      position: absolute;
+      display: inline-block;
+      bottom: 0;
+      border: none;
+      cursor: pointer;
+      padding-bottom: 30px;
+    }
+
     .sidebar a { /* , .dropdown-btn */
       padding: 6px 8px 6px 16px;
       text-decoration: none;
@@ -119,6 +134,7 @@
  -->
    <div class="sidebar">   
       <a href="{{SITEURL}}/">Home</a>
+      <hr>
       <div class="dropdown">
         <button onclick="function_showdropdown_about()" class="dropbtn">About the Journal <i class="fa fa-caret-down"></i></button>
           <!-- <a href="{{SITEURL}}/about.html" class="dropdown-btn"> About the Journal <i class="fa fa-caret-down"></i></a> -->
@@ -128,25 +144,32 @@
             <a href="{{SITEURL}}/about.html#definitions"> Definitions</a>
           </div>
       </div>  
+      <hr>
       <div class="dropdown">
         <button onclick="function_showdropdown_authors()" class="dropbtn">For Authors <i class="fa fa-caret-down"></i></button>
           <!-- <a href="{{SITEURL}}/instructions-to-authors.html" class="dropdown-btn"> For Authors <i class="fa fa-caret-down"></i></a> -->
           <div id="myDropdown-authors" class="dropdown-container">
-            <a href="{{SITEURL}}/instructions-to-authors.html#primary"> Primary Publication</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#instructions"> Instructions</a>
             <a href="{{SITEURL}}/instructions-to-authors.html#types"> Types of submissions</a>
             <a href="{{SITEURL}}/instructions-to-authors.html#preparing"> Preparing your submission</a>
             <a href="{{SITEURL}}/instructions-to-authors.html#submission"> Submission</a>
             <a href="{{SITEURL}}/instructions-to-authors.html#curation"> Curation</a>
-            <a href="{{SITEURL}}/instructions-to-authors.html#cost"> Cost</a>
+            <a href="{{SITEURL}}/instructions-to-authors.html#publishing"> Publishing</a>
             <a href="{{SITEURL}}/instructions-to-authors.html#copyright"> Copyright</a>
           </div>
       </div>  
-
+      <hr>
       <a href="{{SITEURL}}/articles/">Published articles</a>
+      <hr>
       <a href="{{SITEURL}}/editorial-board.html"> Editorial Board</a>
+      <hr>
       <a href="{{SITEURL}}/physiome-project.html"> The Physiome Project</a>
-      <a href="{{SITEURL}}/faqs.html">FAQs</a>
-      <a href="{{SITEURL}}/contact-us.html">Contact us</a>
+      <hr>
+      <a href="{{SITEURL}}/faqs.html">Frequently Asked Questions</a>
+      <hr>
+      <!-- <a href="{{SITEURL}}/contact-us.html">Contact us</a> -->
+      <!-- <a href="{{SITEURL}}/contact-us.html"><button class="dropbtn_bottom">Contact us</button></a> -->
+      <a href = "mailto:physiome@physiomeproject.org"><button class="dropbtn_bottom">Email us</button></a>
     </div>
 
 

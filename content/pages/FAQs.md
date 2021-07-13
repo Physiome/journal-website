@@ -4,34 +4,41 @@ Slug: faqs
    
 ### Frequently Asked Questions
 
-**What is the difference between a primary publication and a *Physiome* publication?**
+<h5 id="difference"><em>What is the difference between a primary publication and a <i>Physiome</i> publication?</em></h5>
 
-**My code is already in my primary publication. Why do I need a *Physiome* publication?**
+This is an experimental or modelling paper describing the model, and has been accepted to a peer-reviewed journal in the field of physiological modelling. The primary publication shows that the model is validated by describing the experiments and data, and how the model fits to the data. In addition, it should include relevant biological background, and explain why the model is important. 
 
-**Does the primary publication need to be published before submitting the corresponding *Physiome* publication?**
+*Physiome* articles focus on reproducibility and reuse, but do not deal with the validation nor scientific relevance of the models: this is reviewed in the Primary Paper.
 
-**In my submission, do I have to include code for every figure in the primary publication?**
+<h5 id="why"><em>My code is already in my primary publication. Why do I need a <i>Physiome</i> publication?</em></h5>
 
-**My code is in a specific deprecated language - must I translate it?**
+<h5 id="publish_before"><em>Does the primary publication need to be published before submitting the corresponding <i>Physiome</i>publication?</em></h5>
+
+<h5 id="every_figure"><em>In my submission, do I have to include code for every figure in the primary publication?</em></h5>
+
+<h5 id="language"><em>My code is in a specific deprecated language - must I translate it?</em></h5>
 
 Code language does not have to be a standard markup language - as long as we can run it our computers. Provide instructions on the run.
 
-**What is OMEX?**
+<h5 id="standard_format"><em>What is a standard format?</em></h5>
+A markup languages such as CellML, SBML, NeuroML and FieldML, designed to encode a model in unambiguous form. The markup language SED-ML is designed to specify the simulation protocol for running the model with specified inputs and outputs.
 
-An <a style="color:#580078" href="http://co.mbine.org/standards/omex">OMEX archive</a> is a ZIP container containing all files required for implementation of the model. It can be opened by any type of ZIP reader - just replace ".omex" with ".zip".
+<h5 id="omex"><em>What is OMEX?</em></h5>
 
-**I can't find my *Physiome* publication on pubmed/worldcat?**
+An <a style=href="http://co.mbine.org/standards/omex">OMEX archive</a> is a ZIP container containing all files required for implementation of the model. It can be opened by any type of ZIP reader - just replace ".omex" with ".zip".
 
-Each article has a DOI unique to it - it is not the same as the primary publication's. You will see your *Physiome* publication on international databases soon.
+<h5 id="pubmed"><em>I can't find my <i>Physiome</i> publication on pubmed/worldcat?</em></h5>
 
-**What is the impact factor for *Physiome*?**
+Each article has a DOI unique to it - it is not the same as the primary publication's. You will see your <i>Physiome</i> publication on international databases soon.
 
-**Where are the physical *Physiome* issues?**
+<h5 id="impact_factor"><em>What is the impact factor for <i>Physiome</i>?</em></h5>
+
+<h5 id="physical"><em>Where are the physical <i>Physiome</i> issues?</em></h5>
 
 We are currently an online-only journal, publishing as soon as submissions are curated.
        
 <div style = "text-align: center;"> 
-<a style="color:#580078" href = "mailto:physiome@physiomeproject.org"><strong>Can't find your question? Please contact us.  </strong></a>
+<a style= href = "mailto:physiome@physiomeproject.org"><strong>Can't find your question? Please contact us.  </strong></a>
 
 </div>
 

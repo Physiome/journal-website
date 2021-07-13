@@ -3,7 +3,7 @@ Slug: contact-us
 
 Contact
 --------------------
-<a style="color:#580078" href = "mailto:physiome@physiomeproject.org">Email us</a>
+Email <a style="color:#580078" href = "mailto:physiome@physiomeproject.org">physiome@physiomeproject.org</a>
 
 <!-- Mailing Address
 
