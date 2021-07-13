@@ -6,6 +6,10 @@ Slug: faqs
 
 **What is the difference between a primary publication and a *Physiome* publication?**
 
+This is an experimental or modelling paper describing the model, and has been accepted to a peer-reviewed journal in the field of physiological modelling. The primary publication shows that the model is validated by describing the experiments and data, and how the model fits to the data. In addition, it should include relevant biological background, and explain why the model is important. 
+
+*Physiome* articles focus on reproducibility and reuse, but do not deal with the validation nor scientific relevance of the models: this is reviewed in the Primary Paper.
+
 **My code is already in my primary publication. Why do I need a *Physiome* publication?**
 
 **Does the primary publication need to be published before submitting the corresponding *Physiome* publication?**
@@ -15,6 +19,8 @@ Slug: faqs
 **My code is in a specific deprecated language - must I translate it?**
 
 Code language does not have to be a standard markup language - as long as we can run it our computers. Provide instructions on the run.
+
+**What is a standard format?**
 
 **What is OMEX?**
 
