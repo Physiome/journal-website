@@ -8,7 +8,7 @@ Slug: faqs
 
 This is an experimental or modelling paper describing the model, and has been accepted to a peer-reviewed journal in the field of physiological modelling. The primary publication shows that the model is validated by describing the experiments and data, and how the model fits to the data. In addition, it should include relevant biological background, and explain why the model is important. 
 
-*Physiome* articles focus on reproducibility and reuse, but do not deal with the validation nor scientific relevance of the models: this is reviewed in the Primary Paper.
+*Physiome* articles focus on reproducibility and reuse, but do not deal with the validation nor scientific relevance of the models: these are reviewed in the Primary Paper.
 ***
 
 <h5 id="why"><em>My code is already in my primary publication. Why do I need a <i>Physiome</i> publication?</em></h5>
