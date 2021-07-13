@@ -20,9 +20,10 @@ This is an experimental or modelling paper describing the model, and has been ac
 
 Code language does not have to be a standard markup language - as long as we can run it our computers. Provide instructions on the run.
 
-**What is a standard format?**
+<h5 id="standard_format"><em>What is a standard format?</em></h5>
 
-**What is OMEX?**
+
+<h5 id="omex"><em>What is OMEX?</em></h5>
 
 An <a style="color:#580078" href="http://co.mbine.org/standards/omex">OMEX archive</a> is a ZIP container containing all files required for implementation of the model. It can be opened by any type of ZIP reader - just replace ".omex" with ".zip".
 

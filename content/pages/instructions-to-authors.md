@@ -5,10 +5,23 @@ Slug: instructions-to-authors
 
 Instructions to Authors
 -----------------------
+<!-- ### Directory-->
+1. [Types of submission](#types)
+2. [Preparing your submission](#preparing)
+    - [The manuscript](#manuscript)
+    - [The source code](#source_code)
+3. [Submission](#submission)
+    - [Pre-submission checklist](#submission_checklist)
+4. [Curation](#curation)
+5. [Publishing](#publishing)
+6. [Copyright of submission](#copyright)
 
-The model files submitted to <i>Physiome</i> must be <a style="color:#580078" href="about.html">reusable</a>, and must be associated with at least one article accepted by a peer-reviewed journal in the field of physiological modelling (a Primary Publication). Authors are encouraged to prepare their <i>Physiome</i> submission(s) in parallel to the Primary Publication. Submissions will be curated and evaluated, but not published until the Primary Publication is accepted. 
+<!-- <details> -->
+<!-- <summary>Click</summary> -->
+The model files submitted to <i>Physiome</i> must be <a style="color:#580078" href="about.html">reusable</a>, and associated with at least one article accepted by a peer-reviewed journal in the field of physiological modelling (a Primary Publication). Authors are encouraged to prepare their <i>Physiome</i> submission(s) in parallel to the Primary Publication. Submissions will be curated and evaluated, but not published until the Primary Publication is accepted. 
+<!-- </details> -->
 
-For queries, <a style="color:#580078" href="faqs.html">see the frequently asked questions</a>. Otherwise, <a style="color:#580078" href = "mailto:physiome@physiomeproject.org">email the curators</a>. Include the submission identification number if querying a specific submission.
+For queries, see the <a style="color:#580078" href="faqs.html">frequently asked questions</a>. Otherwise, <a style="color:#580078" href = "mailto:physiome@physiomeproject.org">email the curators</a>. Include the submission identification number if querying a specific submission.
 
 <!--  <div style = "text-align: center;">
 
@@ -18,8 +31,8 @@ For queries, <a style="color:#580078" href="faqs.html">see the frequently asked 
 
   </div>
  -->
-
-<h3 id="types">Types of submissions</h3>
+***
+<h3 id="types">1. Types of submissions</h3>
 
 The following will be considered for publication in <i>Physiome</i>: 
 
@@ -29,7 +42,7 @@ Original submissions are author-initiated submissions directly associated with a
 
 **2.2 Retrospectives**
 
-Similar to an original submission, but is associated with an historical Primary Publication which has been judged to be of substantial value to the physiological modelling community, such that a reusable, reproducible, and discoverable version of the study should be made available. Where possible, the authors of retrospective should include authors from the primary publication. Retrospectives may be invited by the <i>Physiome</i> editors or can be author-initiated. 
+Similar to an original submission, but is associated with a historical Primary Publication which has been judged to be of substantial value to the physiological modelling community, such that a reusable, reproducible, and discoverable version of the study should be made available. Where possible, the authors of retrospective should include authors from the primary publication. Retrospectives may be invited by the <i>Physiome</i> editors or can be author-initiated. 
 
 When submitting a retrospective, it is best to first submit an expression of interest to the editors outlining why the original primary publication should be considered a suitable contribution to <i>Physiome</i>.
 
@@ -51,7 +64,9 @@ Examples of such material include, but are not restricted to:
 <li>theoretical analyses of the model that provide novel insights that may spur further model development or experimental work</li>
 </ul>
 
-<h3 id="preparing">Preparing your submission</h3>
+<div align="right"><h4><a href="#instructions"><i class="fa fa-angle-double-up"></i></a></h4></div>
+***
+<h3 id="preparing">2. Preparing your submission</h3>
 
 The <i>Physiome</i> submission must include all the resources required to evaluate the reproducibility, reusability, and discoverability of the model. 
 
@@ -74,7 +89,7 @@ While there are many different types of models, file types and structures used b
 
 </ul>
 
-##### __The manuscript__
+##### __The manuscript__ <a name="manuscript"></a>
 Below is listed the minimal information required in an original submission to <i>Physiome</i>. Any sections necessary to give a clear description of the model can be added or removed at the author's discretion. Note that information such as parameter values and units may already be present in the model files, and thus do not need to be repeated in the submission.
 
 *Introduction:* 
@@ -84,7 +99,7 @@ A brief explanation of the biological system modelled. Make sure to define the b
 An overview of the type of model and its structure. As the model code submitted should be complete, all parameter values, units, etc. will be included in your files and are not required to be printed in the article. 
 
 *Model Modifications:*
-Any modifications made to the model, including motivations and origin. This includes corrections, missing parameter values taken from other sources, reformulation of equations for implementation, etc. Provide references to the origins of the parameter values, if not defined in the primary publication.
+Any modifications made to the model as presented in the primary publication, while providing motivations for doing so. Include corrections, missing parameter values taken from other sources, reformulation of equations, etc. Provide references to the origins of the parameter values, if not defined in the primary publication.
 
 *Computational Simulation:*
 All relevant information on how to run the model. This includes, but is not limited to, definitions of libraries, versions of simulation packages, computational solvers and time steps used, type of machine the code was originally executed on,  etc. 
@@ -104,7 +119,7 @@ Discuss the results and the model reliability.
 <!-- <li>Include a legend if the graph has multiple curves in the same plot. If you want to point out specific features of a graph, use inserts or arrows rather than incomplete representations of the graph. </li> 
  --></ul>
 
-##### __The source code__
+##### __The source code__ <a name="source_code"></a>
 Source codes for the model implementation can be in procedural (e.g. Matlab, C, Python) or declarative (e.g. CellML, SBML, SED-ML) languages. 
 The source material must include:
 <ul>
@@ -118,7 +133,9 @@ The source material must include:
 If possible, show that the model obeys physical laws such as conservation of energy, mass and/or charge. 
 This could be done, for example, by implementing it in bond graph form, or formulating it as a port-Hamiltonian system and implementing it numerically in a mass-energy conserving form.
 
-<h3 id="submission">Submission</h3>
+<div align="right"><h4><a href="#instructions"><i class="fa fa-angle-double-up"></i></a></h4></div>
+***
+<h3 id="submission">3. Submission</h3>
 
  <div style = "text-align: center;">
  
@@ -144,8 +161,8 @@ Alternatively, you may submit to these popular repositories. Make sure to give o
 </ul>
 
 
+#### Pre-submission checklist <a name="submission_checklist"></a>
 
-#### Pre-submission checklist 
 <!-- ####Before submitting your model to <i>Physiome</i> for curation, please check: -->
 
 <ul>
@@ -163,30 +180,39 @@ Alternatively, you may submit to these popular repositories. Make sure to give o
 <li>Have you shown that the model obeys physical laws such as conservation of energy, mass and/or charge?</li>
 </ul>
 
+<div align="right"><h4><a href="#instructions"><i class="fa fa-angle-double-up"></i></a></h4></div>
+***
+<h3 id="curation">4. Curation</h3>
+The <i>Physiome</i> curators will check the reproducibility of your model by running the model implementation provided in the submission and comparing the results to the primary paper as stated in the reproducibility goals of the manuscript. If the model can not reproduce the results, or if there are any problems with running the files, the submitting author will be contacted. 
 
-<h3 id="curation">Curation</h3>
-The <i>Physiome</i> curators will check the reproducibility of your model by running the model implementation provided in the submission and compare the results to the primary paper as stated through the reproducibility goals specified in the <i>Physiome</i> manuscript. If the model can not reproduce the results, or if there are any other problems with running the files, the curator will contact the submitting author with their concerns. In cases where the model or simulation implementation could be encoded in one of the <i>Physiome</i> standards, the curators will help provide the author with information about how this could be done (including direct assistance if resource permits).
+If the model or simulation implementation can be encoded in one of the <a style="color:#580078" href="faqs.html#standard_formats"><i>Physiome</i> standards</a>, the curators will assist the author to do this, resource permitting.
 
-<i>Physiome</i> articles are published on <a style="color:#580078" href="http://physiome.figshare.com/">figshare</a> as a pdf manuscript containing all the information needed to run the implementation of the model, and an <a style="color:#580078" href="http://co.mbine.org/standards/omex">OMEX archive</a> containing the model implementation (which can be opened by any type of ZIP reader).
+<div align="right"><h4><a href="#instructions"><i class="fa fa-angle-double-up"></i></a></h4></div>
+***
+<h3 id="publishing">5. Publishing</h3>
+Two outputs are made in the final published <i>Physiome</i> articles:
+<ul>
+<li> as a PDF manuscript hosted on <a style="color:#580078" href="http://physiome.figshare.com/">figshare</a> containing all details on model implementation</li>
+<li> an <a style="color:#580078" href="faqs.html#omex">OMEX archive</a> containing the model files</li>
+</ul>
 
-<i>Physiome</i> will collaborate with the <a style="color:#580078" href="http://reproduciblebiomodels.org">Center for Reproducible Biomedical Modeling</a>, to produce a reproducibility report for every <i>Physiome</i> article. This report will detail the different aspects of the model’s reproducibility and repeatability and will be attached at the end of the finalized manuscript.
+<i>Physiome</i> will collaborate with the <a style="color:#580078" href="http://reproduciblebiomodels.org">Center for Reproducible Biomedical Modeling</a> to produce a reproducibility report for every <i>Physiome</i> article. This report will detail the different aspects of the model’s reproducibility and repeatability and will be appended to the finalized manuscript.
+
+<i>Physiome</i> articles are curated and published as open access with a DOI citable as a journal article. 
 
 We store only the information you submit to us, which includes your <a style="color:#580078" href="https://orcid.org/">ORCID</a>, your name and email address. Submission data are stored locally on the submission system while we rely on a private <a style="color:#580078" href="https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html">Amazon S3 bucket</a> to store files you submit to us. No payment information will be stored by us, as this is managed through <a style="color:#580078" href="https://stripe.com/">Stripe</a>, our payment provider. Personal information will only be used for attribution of the research work being published.
 
+There is an author processing charge of US$300. This is to be paid after acceptance of the submission, but before publication.
 
-<h3 id="cost">Cost</h3>
-<i>Physiome</i> articles are curated and published as open access with a DOI citable as a journal article, with an author processing charge of US$300. The fee is to be paid after acceptance of the submission, but before publication.
+<div align="right"><h4><a href="#instructions"><i class="fa fa-angle-double-up"></i></a></h4></div>
+***
+<h3 id="copyright">6. Copyright of submission</h3>
+<i>Physiome</i> supports open science and believes that authors should retain the rights to their works. Our copyright policy is the following:
+<ol>
+<li>The authors grant to the <i>Physiome</i> the right to publish and communicate Works to the public in electronic form under one <a style="color:#580078" href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons license.</a></li>
+<li>The authors retain copyright in the Works and the right to re-use the Works after publication.</li>
+<li>The authors must obtain permission from any rights owner to include any third party content.</li>
+</ol>
+For additional questions on <i>Physiome</i>’s copyright and licensing policies, please contact our editors at <a style="color:#580078" href = "mailto:physiome@physiomeproject.org">physiome@physiomeproject.org</a>.
 
-
-<h3 id="copyright">Copyright of submission</h3>
-<i>Physiome</i> supports open science and the idea that authors should retain the rights to their own works. Therefore, our copyright policy is the following:
-
-(a) The authors grant to the <i>Physiome</i> the right to publish and communicate Works to the public in electronic form under one of the following <a style="color:#580078" href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons licenses.</a>
-
-(b) The authors retain copyright in the Works and the right to re-use the Works after publication.
-
-(c) The authors must ensure that they have permission from any rights owner to include any third party content. 
-
-For additional questions about <i>Physiome</i>’s copyright and licensing policies, please contact our editors at physiome@physiomeproject.org. Please remember to state the submission identification number if applicable.
-
-
+<div align="right"><h4><a href="#instructions"><i class="fa fa-angle-double-up"></i></a></h4></div>
