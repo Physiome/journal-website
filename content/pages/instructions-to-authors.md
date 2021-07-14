@@ -69,7 +69,7 @@ A <i>Physiome</i> article consists of a description and the code of a reproducib
 While there are many different types of models, file types and structures used by modelers, there are some items which are common to all <i>Physiome</i> submissions. These are:
 
 <ul>
-<li>A manuscript, which should be prepared using the <a href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv"><i>Physiome</i> Overleaf template</a>.</li> 
+<li>A manuscript, which should be prepared using the <i>Physiome</i> Overleaf template.</li> 
 <li>Source code for the model. Instructions on how to run them in order to reproduce the results must be presented in the manuscript. </li>
 
 <!-- The manuscript must include: 
@@ -80,6 +80,12 @@ While there are many different types of models, file types and structures used b
 </ol> -->
 
 </ul>
+
+ <div style = "text-align: center;">
+
+<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv" class="button"><i>Physiome</i> Overleaf template</a>
+
+  </div>
 
 ##### __The manuscript__ <a name="manuscript"></a>
 Below is listed the minimal information required in an original submission to <i>Physiome</i>. Any sections necessary to give a clear description of the model can be added or removed at the author's discretion. Note that information such as parameter values and units may already be present in the model files, and thus do not need to be repeated in the submission.
@@ -132,7 +138,7 @@ This could be done, for example, by implementing it in bond graph form, or formu
 
  <div style = "text-align: center;">
  
-<a> <button type="button" style="background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" class="button"><i>Physiome</i> submission system</button> </a>
+<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" class="button"><i>Physiome</i> submission system</a>
 
   </div>
 
