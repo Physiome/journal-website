@@ -150,14 +150,15 @@ Submissions can be made by sending the files directly through the submission sys
 
 Alternatively, you may submit to these popular repositories. Make sure to give our curator access to your workspace.
 
-<ul>
-<li><a href="https://models.physiomeproject.org">Physiome Model Repository (PMR)</a> Username: PhysiomeCurators</li>
-<li><a href="https://github.com/">GitHub</a> Username: PhysiomeCurators</li>
-<li><a href="https://bitbucket.org/">Bitbucket</a> Username: PhysiomeCurators</li>
-<li><a href="https://www.ebi.ac.uk/biomodels/">BioModels</a> Username: PhysiomeCurators</li>
-<li><a href="https://figshare.com/">figshare</a> Username: Curators Physiome</li>
-<li><a href="https://drive.google.com/">Google Drive</a> Username: PhysiomeCurators@gmail.com (Note: this email is not monitored, use only for sharing Google Drive.)</li> 
-</ul>
+| Repository <img width=200/>| Username <img width=500/>|
+| --- | --- |
+| <a href="https://models.physiomeproject.org">Physiome Model Repository (PMR)</a> | PhysiomeCurators |
+| <a href="https://github.com/">GitHub</a> | PhysiomeCurators |
+| <a href="https://bitbucket.org/">Bitbucket</a> |  PhysiomeCurators</li>
+| <a href="https://www.ebi.ac.uk/biomodels/">BioModels</a> |  PhysiomeCurators</li>
+| <a href="https://figshare.com/">figshare</a> |  Curators Physiome</li>
+| <a href="https://drive.google.com/">Google Drive</a>\* |  PhysiomeCurators@gmail.com
+\* *This email is not monitored. Use only for sharing your model repository.*
 
 
 #### Pre-submission checklist <a name="submission_checklist"></a>
