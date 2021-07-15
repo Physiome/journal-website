@@ -142,13 +142,13 @@ This could be done, for example, by implementing it in bond graph form, or formu
 
   </div>
 
-An <a href="https://orcid.org/">ORCiD</a> is required to log in. If the submitter and the corresponding author are different, make sure that the verified email is tied to the submitter.  
+An <a href="https://orcid.org/">ORCiD</a> is required to log in to the submission portal. If the submitter and the corresponding author are different, make sure that the verified email is tied to the submitter.  
 
 All accepted submissions will be published as open access on <a href="https://physiome.figshare.com/">figshare.</a> 
 
 Submissions can be made by sending the files directly through the submission system, or by linking to an open access, permanent, and version-controlled repository. For the latter, which we encourage authors to use the <a href="https://models.physiomeproject.org">Physiome Model Repository (PMR)</a>, which is version-controlled. Upon receipt of a submission which is not already linked to the PMR, curators will create a private PMR workspace for the submission. When a <i>Physiome</i> submission consists of models or data already in PMR, then curators will internally link the workspaces.
 
-Alternatively, you may submit to these popular repositories. Make sure to give our curator access to your workspace.
+Alternatively, you may submit to these popular repositories. Share your workspace to the relevant username listed below, such that our curator will have access to it:
 
 | Repository <img width=200/>| Username <img width=500/>|
 | --- | --- |
