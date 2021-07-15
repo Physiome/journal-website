@@ -1,0 +1,258 @@
+{% extends 'base.html' %}
+{% import 'shared/pub.html' as pub %}
+{% block title %} {{page.title}} {% endblock %}
+{% block body %}
+<head>
+<style>
+
+/* Header/Logo Title */
+.header {font-size: 0.8em;}
+
+/* Page Content */
+.content {}
+</style>
+</head>
+
+<div class="header">
+
+<div style='float: left;'>
+  Open Access<br>
+  Reproducible Model<br>
+  {{article.kind}}
+</div>
+
+<div style='float: right; text-align: right'>
+  <p>Published: {{article.publishdate}}<br>
+  {% if article.lastpublishdate %}
+  Last edited: {{article.lastpublishdate}}</p>
+  {% endif %}
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+  <h3>{{article.title}}</h3>
+<p style='font-size: 1.2em;'>
+  <i>{{pub.authorlist(article)}}</i>
+</p>
+
+<table style="background-color:#E0E0E0;">
+    <tr style="background-color:#E0E0E0;">
+        <td>
+            <style>
+                .button {
+                    border: 1px solid #580078;
+                    background-color: #580078;
+                    color: white;
+                    padding: 15px 25px;
+                    text-align: center;
+                    font-size: 16px;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    margin-bottom: 0;
+                    width: 13em;
+                    height: 100%
+                }
+                .article-icon {
+                    max-height: 1.7em;
+                }
+            </style>
+                <a href="https://doi.org/{{article.doi}}" class="button" >
+                    <img class="article-icon" src="{{SITEURL}}/theme/images/Physiome-under.png">&nbsp;&nbsp;View publication
+                </a>
+        </td>
+        <td>
+            {% if article.doi %}
+                <p>
+                    <b>To cite this <i>Physiome</i> article, cite the whole collection at the DOI: <a style="color:#580078" href="https://doi.org/{{article.doi}}">{{article.doi}}</a>, and the Primary Publication at the DOI: <a style="color:#580078" href="{{article.primarypaperurl}}">{{article.primarypaperurl}}</a>.</b>
+                </p>
+                <p>
+                    All <i>Physiome</i> articles are published as a collection containing the manuscript as a PDF file and the model implementation as an <a style="color:#580078" href="faqs.html#omex">OMEX file</a>.
+                </p>
+            {% endif %}
+        </td>
+    </tr>
+</table>
+
+<br>
+
+{% if article.primarypaperurl %}
+    <b>Primary Publication:</b> <a style="color:#580078" href="{{article.primarypaperurl}}">{{article.primarypapername}}</a>
+{% else %}
+    <b>Primary Publication:</b> {{article.primarypapername}}
+{% endif %}
+
+<br>
+<br>
+
+<p>
+{% if article.abstract %}
+<b>Abstract:</b> {{article.abstract}}</p>
+{% endif %}
+
+{% if article.primarypaper %}
+  {% endif %}
+  {% if article.documents %}
+    <p>Extra documents:
+      {% for doc in article.documents %}
+	{% if loop.index is odd %}
+	  <span style="margin-right:10px"><i class="fi-page" style="margin-right:5px"></i><a href="{{article.documents[loop.index0+1]}}">{{doc}}</a></span>
+	{% else %}
+	{% endif %}
+      {% endfor %}
+    </p>
+  {% else %}
+  {% endif %}
+
+<br>
+
+<span><Message><i>Is there something wrong with this publication? </i><a href="mailto:physiome-curators@physiomeproject.org?subject=Query about article {{article.doi}}"><i>Contact our curators</i></a>.</Message></span>
+
+
+<br>
+<br>
+
+
+
+
+{% if article.pdfid %}
+<center>
+    <iframe src="https://widgets.figsh.com/articles/{{article.pdfid}}/embed?show_title=1" width="768" height="475" allowfullscreen="true" frameborder="0"></iframe>
+</center>
+{% endif %}
+
+  {% if article.archivedescription %}
+    <div class="claro">
+    	<h2 id="archiveHeader"></h2>
+    	<div id="archiveItems"></div>
+    </div>
+	<!-- load Dojo -->
+	<script type="text/javascript">
+		// Instead of using data-dojo-config, we're creating a dojoConfig
+		// object *before* we load dojo.js; they're functionally identical,
+		// it's just easier to read this approach with a larger configuration.
+		var dojoConfig = {
+			async : true,
+			// This code registers the correct location of the "andre"
+			// package so we can load Dojo from the CDN whilst still
+			// being able to load local modules
+			packages : [ {
+				name : "views",
+				location : '/theme/js/views'
+			} ],
+			gfxRenderer : "svg,silverlight,vml" // svg is first priority
+		};
+	</script>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/dojo/1.11.2/dojo/dojo.js"
+		type="text/javascript"></script>
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dijit/themes/claro/claro.css" media="screen">
+	<!--
+	<script
+		src="{{SITEURL}}/theme/js/dojo-release-1.12.2-src/dojo/dojo.js"
+		type="text/javascript"></script>
+	<link rel="stylesheet" href="{{SITEURL}}/theme/js/dojo-release-1.12.2-src/dijit/themes/claro/claro.css" media="screen">
+	-->
+	<link rel="stylesheet" href="{{SITEURL}}/theme/css/article.css" />
+	<!-- and load our archive viewer -->
+	<script type="text/javascript">    
+	    require([
+			"dojo/dom",
+			"dojo/json",
+			"dijit/TitlePane",
+			"views/cellml",
+			"views/sedml",
+			"dojo/text!{{article.archivedescription}}",
+			"dojo/domReady!"
+		], function(dom, json, TitlePane, CellmlView, SedmlView, data){
+	
+	    	// parse the archive description
+	    	var archiveDescription = json.parse(data);
+	    	
+	    	// set the heading
+	    	dom.byId("archiveHeader").innerHTML = "COMBINE Archive DOI: " + archiveDescription.doi
+	    	
+	    	// create the title panes
+	    	var items = archiveDescription.children;
+	    	var nItems = items.length;
+	    	for (var i = 0; i < nItems; i++) {
+				var item = items[i];
+				console.log(item);
+				var content = null;
+				if ("cellml" in item) {
+					content = new CellmlView({
+						"description": item.description,
+						"cellml": item.cellml
+					});
+				} else if ("sedml" in item) {
+					console.log(item.sedml);
+					console.log(item.sedml.simulateInOpenCOR)
+					content = new SedmlView({
+						"description": item.description,
+						"sedml": item.sedml
+					});
+				} else {
+					content = item.description; 
+				}
+		    	var tp = new TitlePane({
+		    		"title": item.location,
+		    		"open": "highlight" in item ? item.highlight : false,
+		    		"content": content
+		    	});
+		    	dom.byId("archiveItems").appendChild(tp.domNode);
+		    	tp.startup();
+	    	}
+		});
+   	</script>
+  {% else %}
+    {{article.content}}
+  {% if article.modelviewurl %}
+    <button class="button" name="Reset View" value="OK" type="button" onclick="resetView()">Reset View</button>
+    <button class="button" name="View All" value="OK" type="button" onclick="viewAll()">View All</button>
+    <script src="{{SITEURL}}/theme/js/models/three.min.js"></script>
+    <script src="{{SITEURL}}/theme/js/models/zinc_threejs_control.js"></script>
+    <script src="{{SITEURL}}/theme/js/models/zinc_3js_renderer.js"></script>
+    <script>
+      var currentModel = undefined;
+      
+      container = document.createElement( 'div' );
+      document.body.appendChild( container );
+      container.style.height = "500px"
+
+      zincRenderer = new Zinc.Renderer(container, window);
+      Zinc.defaultMaterialColor = 0xFFFF9C
+      zincRenderer.initialiseVisualisation();
+      
+      
+      load();
+      zincRenderer.animate();
+      
+      function load() {
+      var scene = zincRenderer.getCurrentScene();
+      scene.loadViewURL("{{article.modelviewurl}}");
+      {% for metadata_url in article.modelmetadataurls %}
+	scene.loadMetadataURL("{{metadata_url}}");
+      {% endfor %}
+      var directionalLight = zincRenderer.getCurrentScene().directionalLight;
+      directionalLight.intensity = 1.8;
+      }
+
+      
+      function resetView()
+      {
+      zincRenderer.resetView();
+      }
+      
+      function viewAll()
+      {
+      zincRenderer.viewAll();
+      }
+
+    </script>
+  {% endif %}
+  {% endif %}
+{% endblock %}
+
+    
