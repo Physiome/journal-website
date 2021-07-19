@@ -35,7 +35,7 @@ A markup languages such as CellML, SBML, NeuroML and FieldML, designed to encode
 
 <h5 id="omex"><em>What is OMEX?</em></h5>
 
-An <a style=href="http://co.mbine.org/standards/omex">OMEX archive</a> is a ZIP container containing all files required for implementation of the model. It can be opened by any type of ZIP reader - just replace ".omex" with ".zip".
+An  <a href="http://co.mbine.org/standards/omex" target="_blank" rel="noopener noreferrer">OMEX archive</a> is a ZIP container containing all files required for implementation of the model. It can be opened by any type of ZIP reader - just replace ".omex" with ".zip".
 ***
 
 <h5 id="pubmed"><em>I can't find my <i>Physiome</i> publication on pubmed/worldcat?</em></h5>
@@ -52,7 +52,7 @@ We are an online only journal, publishing as soon as submissions are curated. Gi
 ***
        
 <div style = "text-align: center;"> 
-<a style= href = "mailto:physiome@physiomeproject.org"><strong>Can't find your question? Please contact us.  </strong></a>
+<a href = "mailto:physiome@physiomeproject.org"><strong>Can't find your question? Please contact us.  </strong></a>
 
 </div>
 

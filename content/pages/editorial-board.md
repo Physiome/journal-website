@@ -80,6 +80,6 @@ Dr Anand Rampadarath, Curator *Physiome*, Auckland Bioengineering Institute, Uni
 
 Tommy Yu, Physiome Model Repository; Auckland Bioengineering Institute, University of Auckland
 
-Dr Alan Garny, [OpenCOR](https://opencor.ws/) project manager and lead developer; Auckland Bioengineering Institute, University of Auckland
+Dr Alan Garny, <a href="https://opencor.ws/" target="_blank" rel="noopener noreferrer">OpenCOR</a> project manager and lead developer; Auckland Bioengineering Institute, University of Auckland
 
 Dr Richard Christie, Auckland Bioengineering Institute, University of Auckland
