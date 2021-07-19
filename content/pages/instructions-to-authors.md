@@ -18,7 +18,7 @@ Instructions for Authors
 
 <!-- <details> -->
 <!-- <summary>Click</summary> -->
-The model files submitted to <i>Physiome</i> must be <a href="about.html">reusable</a>, and associated with at least one article accepted by a peer-reviewed journal in the field of physiological modelling (a Primary Publication). Authors are encouraged to prepare their <i>Physiome</i> submission(s) in parallel to the Primary Publication. Submissions will be curated and evaluated, but not published until the Primary Publication is accepted. 
+The model files submitted to <i>Physiome</i> must be <a href="about.html#philosophy">reusable</a>, and associated with at least one article accepted by a peer-reviewed journal in the field of physiological modelling (a Primary Publication). Authors are encouraged to prepare their <i>Physiome</i> submission(s) in parallel to the Primary Publication. Submissions will be curated and evaluated, but not published until the Primary Publication is accepted. 
 <!-- </details> -->
 
 For queries, see the <a href="faqs.html">Frequently Asked Questions</a>. Otherwise, <a href = "mailto:physiome@physiomeproject.org">email the curators</a>. Include the submission identification number if querying a specific submission.
@@ -83,7 +83,7 @@ While there are many different types of models, file types and structures used b
 
  <div style = "text-align: center;">
 
-<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv" class="button"><i>Physiome</i> Overleaf template</a>
+<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv" target="_blank" rel="noopener noreferrer" class="button"><i>Physiome</i> Overleaf template</a>
 
   </div>
 
@@ -111,8 +111,8 @@ Discuss the results and the model reliability.
  *Figures:*
 <ul>
 <li> Ensure the graphs presented in the manuscript are the same as the ones produced by your submitted code. </li>
-<li>Use high quality images. Recommended image formats are .pdf for plots, graphs, and diagrams, and .jpg for photographic images. <a href="https://www.overleaf.com/learn/latex/Inserting_Images">Advice on image handling in Overleaf can be found here.</a> Maximum image size is 1MB. 
-<a href="https://www.overleaf.com/help/336-my-image-files-are-very-large">See here for treatment of large images.</a> </li>
+<li>Use high quality images. Recommended image formats are .pdf for plots, graphs, and diagrams, and .jpg for photographic images. <a href="https://www.overleaf.com/learn/latex/Inserting_Images" target="_blank" rel="noopener noreferrer">Advice on image handling in Overleaf can be found here.</a> Maximum image size is 1MB. 
+<a href="https://www.overleaf.com/help/336-my-image-files-are-very-large" target="_blank" rel="noopener noreferrer">See here for treatment of large images.</a> </li>
 <li>Use a sans serif font for text in the figures, of at least 10pt font size in the final image in the manuscript. </li>
 <!-- <li>Label subplots in the upper left corner using capital letters. Label all axes and include units. </li> -->
 <!-- <li>Include a legend if the graph has multiple curves in the same plot. If you want to point out specific features of a graph, use inserts or arrows rather than incomplete representations of the graph. </li> 
@@ -138,26 +138,26 @@ This could be done, for example, by implementing it in bond graph form, or formu
 
  <div style = "text-align: center;">
  
-<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" class="button"><i>Physiome</i> submission system</a>
+<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" target="_blank" rel="noopener noreferrer" class="button"><i>Physiome</i> submission system</a>
 
   </div>
 
-An <a href="https://orcid.org/">ORCiD</a> is required to log in to the submission portal. If the submitter and the corresponding author are different, make sure that the verified email is tied to the submitter.  
+An <a href="https://orcid.org/" target="_blank" rel="noopener noreferrer">ORCiD</a> is required to log in to the submission portal. If the submitter and the corresponding author are different, make sure that the verified email is tied to the submitter.  
 
-All accepted submissions will be published as open access on <a href="https://physiome.figshare.com/">figshare.</a> 
+All accepted submissions will be published as open access on <a href="https://physiome.figshare.com/" target="_blank" rel="noopener noreferrer">figshare.</a> 
 
-Submissions can be made by sending the files directly through the submission system, or by linking to an open access, permanent, and version-controlled repository. For the latter, which we encourage authors to use the <a href="https://models.physiomeproject.org">Physiome Model Repository (PMR)</a>, which is version-controlled. Upon receipt of a submission which is not already linked to the PMR, curators will create a private PMR workspace for the submission. When a <i>Physiome</i> submission consists of models or data already in PMR, then curators will internally link the workspaces.
+Submissions can be made by sending the files directly through the submission system, or by linking to an open access, permanent, and version-controlled repository. For the latter, which we encourage authors to use the <a href="https://models.physiomeproject.org" target="_blank" rel="noopener noreferrer">Physiome Model Repository (PMR)</a>, which is version-controlled. Upon receipt of a submission which is not already linked to the PMR, curators will create a private PMR workspace for the submission. When a <i>Physiome</i> submission consists of models or data already in PMR, then curators will internally link the workspaces.
 
 Alternatively, you may submit to these popular repositories. Share your workspace to the relevant username listed below, such that our curator will have access to it:
 
 | Repository <img width=200/>| Username <img width=500/>|
 | --- | --- |
-| <a href="https://models.physiomeproject.org">Physiome Model Repository (PMR)</a> | PhysiomeCurators |
-| <a href="https://github.com/">GitHub</a> | PhysiomeCurators |
-| <a href="https://bitbucket.org/">Bitbucket</a> |  PhysiomeCurators</li>
-| <a href="https://www.ebi.ac.uk/biomodels/">BioModels</a> |  PhysiomeCurators</li>
-| <a href="https://figshare.com/">figshare</a> |  Curators Physiome</li>
-| <a href="https://drive.google.com/">Google Drive</a>\* |  PhysiomeCurators@gmail.com
+| <a href="https://models.physiomeproject.org" target="_blank" rel="noopener noreferrer">Physiome Model Repository (PMR)</a> | PhysiomeCurators |
+| <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a> | PhysiomeCurators |
+| <a href="https://bitbucket.org/" target="_blank" rel="noopener noreferrer">Bitbucket</a> |  PhysiomeCurators</li>
+| <a href="https://www.ebi.ac.uk/biomodels/" target="_blank" rel="noopener noreferrer">BioModels</a> |  PhysiomeCurators</li>
+| <a href="https://figshare.com/" target="_blank" rel="noopener noreferrer">figshare</a> |  Curators Physiome</li>
+| <a href="https://drive.google.com/" target="_blank" rel="noopener noreferrer">Google Drive</a>\* |  PhysiomeCurators@gmail.com
 \* *This email is not monitored. Use only for sharing your model repository.*
 
 
@@ -175,7 +175,7 @@ Alternatively, you may submit to these popular repositories. Share your workspac
 <li>Is your model presented in a standardised format (if possible)? </li>
 <li>Have you specified the provenance of your model and parameter values?</li>
 <li>Does the model have appropriate modularity and annotation (if possible)?</li>
-<li>Is your manuscript written in the <a href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv"><i>Physiome</i> Overleaf template</a>?</li>
+<li>Is your manuscript written in the <a href="https://www.overleaf.com/latex/templates/physiome-journal-article-template/kfbqwxxmtsfv" target="_blank" rel="noopener noreferrer"><i>Physiome</i> Overleaf template</a>?</li>
 <li>Are all graphs and axes labeled in your figures, and is the text in your figures in a large enough font size to be easily read?</li>
 <li>Have you shown that the model obeys physical laws such as conservation of energy, mass and/or charge?</li>
 </ul>
@@ -185,22 +185,22 @@ Alternatively, you may submit to these popular repositories. Share your workspac
 <h3 id="curation">4. Curation</h3>
 The <i>Physiome</i> curators will check the reproducibility of your model by running the model implementation provided in the submission and comparing the results to the primary paper as stated in the reproducibility goals of the manuscript. If the model can not reproduce the results, or if there are any problems with running the files, the submitting author will be contacted. 
 
-If the model or simulation implementation can be encoded in one of the <a href="faqs.html#standard_formats"><i>Physiome</i> standards</a>, the curators will assist the author to do this, resource permitting.
+If the model or simulation implementation can be encoded in one of the <a href="faqs.html#standard_format"><i>Physiome</i> standards</a>, the curators will assist the author to do this, resource permitting.
 
 <div align="right"><h4><a href="#instructions"><i class="fa fa-angle-double-up"></i></a></h4></div>
 ***
 <h3 id="publishing">5. Publishing</h3>
 Two outputs are made in the final published <i>Physiome</i> articles:
 <ul>
-<li> as a PDF manuscript hosted on <a href="http://physiome.figshare.com/">figshare</a> containing all details on model implementation</li>
+<li> as a PDF manuscript hosted on <a href="http://physiome.figshare.com/" target="_blank" rel="noopener noreferrer">figshare</a> containing all details on model implementation</li>
 <li> an <a href="faqs.html#omex">OMEX archive</a> containing the model files</li>
 </ul>
 
-<i>Physiome</i> will collaborate with the <a href="http://reproduciblebiomodels.org">Center for Reproducible Biomedical Modeling</a> to produce a reproducibility report for every <i>Physiome</i> article. This report will detail the different aspects of the model’s reproducibility and repeatability and will be appended to the finalised manuscript.
+<i>Physiome</i> will collaborate with the <a href="http://reproduciblebiomodels.org" target="_blank" rel="noopener noreferrer">Center for Reproducible Biomedical Modeling</a> to produce a reproducibility report for every <i>Physiome</i> article. This report will detail the different aspects of the model’s reproducibility and repeatability and will be appended to the finalised manuscript.
 
 <i>Physiome</i> articles are curated and published as open access with a DOI citable as a journal article. 
 
-We store only the information you submit to us, which includes your <a href="https://orcid.org/">ORCID</a>, your name and email address. Submission data are stored locally on the submission system while we rely on a private <a href="https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html">Amazon S3 bucket</a> to store files you submit to us. No payment information will be stored by us, as this is managed through <a href="https://stripe.com/">Stripe</a>, our payment provider. Personal information will only be used for attribution of the research work being published.
+We store only the information you submit to us, which includes your <a href="https://orcid.org/" target="_blank" rel="noopener noreferrer">ORCID</a>, your name and email address. Submission data are stored locally on the submission system while we rely on a private <a href="https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html" target="_blank" rel="noopener noreferrer">Amazon S3 bucket</a> to store files you submit to us. No payment information will be stored by us, as this is managed through <a href="https://stripe.com/" target="_blank" rel="noopener noreferrer">Stripe</a>, our payment provider. Personal information will only be used for attribution of the research work being published.
 
 There is an author processing charge of US$300. This is to be paid after acceptance of the submission, but before publication.
 
@@ -209,7 +209,7 @@ There is an author processing charge of US$300. This is to be paid after accepta
 <h3 id="copyright">6. Copyright of submission</h3>
 <i>Physiome</i> supports open science and believes that authors should retain the rights to their works. Our copyright policy is the following:
 <ol>
-<li>The authors grant to the <i>Physiome</i> the right to publish and communicate Works to the public in electronic form under one <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons license.</a></li>
+<li>The authors grant to the <i>Physiome</i> the right to publish and communicate Works to the public in electronic form under one <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank" rel="noopener noreferrer">Creative Commons license.</a></li>
 <li>The authors retain copyright in the Works and the right to re-use the Works after publication.</li>
 <li>The authors must obtain permission from any rights owner to include any third party content.</li>
 </ol>
