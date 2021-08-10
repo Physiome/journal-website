@@ -1,16 +1,16 @@
 Title: About the Journal
 Slug: about
-       
-<h3 id="about"> </h3>
-       
+              
+<div id="scope"/>
 About the Journal
------------------------
+----------------------
+**ISSN:** 2744-6204
 <!-- ### Directory-->
 1. [Scope](#scope)
 2. [Philosophy](#philosophy)
 3. [Definitions](#definitions)
 ***       
-<h3 id="scope">Scope</h3>
+<h3>Scope</h3>
 *Physiome* publishes articles describing physiological models which demonstrate that the mathematical model, model implementation, and simulation results are consistent and reproducible. *Physiome* articles must be linked to primary papers published in or accepted to a peer-reviewed physiology, bioengineering or biophysics journal.
 
 Submissions must include sufficient information that independent *Physiome* curators are able to evaluate the consistency and reproducibility of the model, its implementation, and the simulations that are performed in producing the simulation results.
