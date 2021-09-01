@@ -1,5 +1,5 @@
-Title: Articles
-Slug: articles
+Title: Article Prototypes
+Slug: article-prototypes
        
 Article prototypes
 --------

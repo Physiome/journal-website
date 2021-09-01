@@ -1,9 +1,10 @@
 Title: Editorial Board
 Slug: editorial-board
 
-## *Physiome* 
+<!-- ### __*Physiome*__ -->
+<h2 style="color:#580078"><i>Physiome</i></strong></h2>
 
-### *Physiome* Editorial Board
+#### *Physiome* Editorial Board
 Professor Denis Noble, Professor Emeritus, Oxford University
 
 Professor Walter Boron, Chair IUPS Publishing Committee; Chair, Department of Physiology and Biophysics, Case Western Reserve University, Cleveland, USA
@@ -16,7 +17,7 @@ Professor Peter Hunter, EiC *Physiome*; Director, Auckland Bioengineering Instit
 
 Dr Daniel Hook, Digital Science; Washington University in St Louis, Imperial College London, University of Cambridge
 
-### *Physiome* Editors and Curators
+#### *Physiome* Editors and Curators
 Professor Peter Hunter, Editor in Chief; Director, Auckland Bioengineering Institute, University of Auckland
 
 Dr David Nickerson, Editor; Senior Research Fellow, Auckland Bioengineering Institute, University of Auckland
@@ -31,10 +32,13 @@ Dr Weiwei Ai, Curator, Auckland Bioengineering Institute, University of Auckland
 
 Dr Nima Afshar Ghotli, Curator, Auckland Bioengineering Institute, University of Auckland
 
-## Physiome Incorporated Society
+***
+<!-- ### __Physiome Incorporated Society__ -->
+<h2 style="color:#580078">Physiome Incorporated Society</h2>
+
 Physiome Incorporated is a non-for-profit incorporated society registered in New Zealand and tasked with managing the *Physiome* scientific journal. To become a member of Physiome Incorporated, please <a href = "mailto:d.nickerson@auckland.ac.nz?subject=Enquiry regarding membership of the Physiome Incorporated Society">contact the secretary Dr David Nickerson</a>.
 
-### Physiome Incorporated Executive Committee
+#### Physiome Incorporated Executive Committee
 Professor Poul Nielsen, Chair, Auckland Bioengineering Institute, University of Auckland
 
 Dr David Nickerson, Secretary, Physiome Aotearoa Fellow, Auckland Bioengineering Institute, University of Auckland
@@ -45,7 +49,7 @@ Dr Karin Lundengård, Communications, Linköping University
 
 Dr Anand Rampadarath, Curation, Auckland Bioengineering Institute, University of Auckland
 
-### Physiome Incorporated Founding members
+#### Physiome Incorporated Founding members
 Professor Denis Noble, Physiome Project; Professor Emeritus, Oxford University
 
 Professor Walter Boron, Chair IUPS Publishing Committee; Chair, Department of Physiology and Biophysics, Case Western Reserve University, Cleveland, USA
@@ -76,6 +80,6 @@ Dr Anand Rampadarath, Curator *Physiome*, Auckland Bioengineering Institute, Uni
 
 Tommy Yu, Physiome Model Repository; Auckland Bioengineering Institute, University of Auckland
 
-Dr Alan Garny, [OpenCOR](https://opencor.ws/) project manager and lead developer; Auckland Bioengineering Institute, University of Auckland
+Dr Alan Garny, <a href="https://opencor.ws/" target="_blank" rel="noopener noreferrer">OpenCOR</a> project manager and lead developer; Auckland Bioengineering Institute, University of Auckland
 
 Dr Richard Christie, Auckland Bioengineering Institute, University of Auckland

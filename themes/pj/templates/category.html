@@ -2,7 +2,7 @@
 {% import 'shared/pub.html' as pub %}
 {% block title %} {{page.title}} {% endblock %}
 {% block body %}
-<h2>All articles</h2>
+<h2>Published Articles</h2>
   <table>
     {% for article in articles_page.object_list %}
     {{ pub.publisting(article) }}
