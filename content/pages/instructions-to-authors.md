@@ -66,11 +66,12 @@ Every Original or Retrospective submission in <i>Physiome</i> must be associated
 
 A <i>Physiome</i> article consists of a description and the code of a reproducible implementation of the model. Such resources can be directly included in the ZIP archive submitted to <i>Physiome</i>, or linked to via appropriate online repositories or databases. A list of the databases used by <i>Physiome</i> can be found <a href="instructions-to-authors.html#submission">here</a>. 
 
-While there are many different types of models, file types and structures used by modelers, there are some items which are common to all <i>Physiome</i> submissions. These are:
+While there are many different types of models, file types and structures used by modelers, there are some items which are common to all <i>Physiome</i> submissions. These must be included in your upload to the submission portal:
 
-<ul>
-<li>A manuscript, which should be prepared using the <i>Physiome</i> Overleaf template.</li> 
-<li>Source code for the model. Instructions on how to run them in order to reproduce the results must be presented in the manuscript. </li>
+<ol>
+<li>A <strong>manuscript</strong>, which should be prepared using the <i>Physiome</i> Overleaf template.</li> 
+<li>The <strong>.tex file</strong> used to generate the manuscript. From the Overleaf template, download the source and upload the .zip file.</li>
+<li><strong>Source code</strong> for the model. Instructions on how to run them in order to reproduce the results must be presented in the manuscript. </li>
 
 <!-- The manuscript must include: 
 <ol>
@@ -79,7 +80,7 @@ While there are many different types of models, file types and structures used b
 <li> clearly-stated reproducibility goals that overlap with the results shown in the Primary Publication.</li>
 </ol> -->
 
-</ul>
+</ol>
 
  <div style = "text-align: center;">
 
