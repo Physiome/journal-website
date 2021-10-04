@@ -204,6 +204,7 @@ Two outputs are made in the final published <i>Physiome</i> articles:
 We store only the information you submit to us, which includes your <a href="https://orcid.org/" target="_blank" rel="noopener noreferrer">ORCID</a>, your name and email address. Submission data are stored locally on the submission system while we rely on a private <a href="https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html" target="_blank" rel="noopener noreferrer">Amazon S3 bucket</a> to store files you submit to us. No payment information will be stored by us, as this is managed through <a href="https://stripe.com/" target="_blank" rel="noopener noreferrer">Stripe</a>, our payment provider. Personal information will only be used for attribution of the research work being published.
 
 There is an author processing charge of US$300. This is to be paid after acceptance of the submission, but before publication.
+See <a href="faqs.html#payment">here</a> for additional details on the payment process.
 
 <div align="right"><h4><a href="#instructions"><i class="fa fa-angle-double-up"></i></a></h4></div>
 ***

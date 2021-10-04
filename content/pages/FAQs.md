@@ -45,6 +45,12 @@ See the Computational Modelling in Biology Network (<a href="http://co.mbine.org
 The Open Modelling Exchange format, <a href="http://co.mbine.org/standards/omex" target="_blank" rel="noopener noreferrer">OMEX</a>, is the technical specification defining the format of the COMBINE archive.
 ***
 
+<h5 id="payment"><em>How do I have someone else pay for my submission?</em></h5>
+
+On acceptance of your *Physiome* submission, you will receive a link via email to the payment page, hosted by Stripe. This link can be sent to your designated third party making the payment, who will not need sign-in credentials to do so. 
+This link does not timeout, but will be inactivated should you click 'Cancel'.
+***
+
 <h5 id="pubmed"><em>I can't find my <i>Physiome</i> publication on pubmed/worldcat?</em></h5>
 
 Each article has a DOI unique to it - it is not the same as the primary publication's. You will see your <i>Physiome</i> publication on international databases soon.
