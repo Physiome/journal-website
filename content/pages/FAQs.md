@@ -47,7 +47,7 @@ The Open Modelling Exchange format, <a href="http://co.mbine.org/standards/omex"
 
 <h5 id="payment"><em>How do I have someone else pay for my submission?</em></h5>
 
-On acceptance of your *Physiome* submission, you will receive a link via email to the payment page, hosted by Stripe. This link can be sent to your designated third party making the payment, who will not need sign-in credentials to do so. 
+On acceptance of your submission, you will receive a link via email to view your article on the *Physiome* submission portal. On the portal, there is a link to the payment page for your submission, hosted by Stripe. This link can be sent to your designated third party making the payment, who will not need sign-in credentials to do so. 
 This link does not timeout, but will be inactivated should you click 'Cancel'.
 ***
 
