@@ -47,7 +47,7 @@ The Open Modelling Exchange format, <a href="http://co.mbine.org/standards/omex"
 
 <h5 id="resubmit"><em>I received an email to make revisions to my submission. How do I do this?</em></h5>
 
-On the *Physiome* submission portal, click 'Edit submission'. There, you can replace and/or upload new files for your manuscript or supplementary material. 
+On the *Physiome* submission portal, click 'Submit revision'. There, you can replace and/or upload new files for your manuscript or supplementary material. 
 
 Upon submission of the revisions, *Physiome* editors and curators will resume curation process by assessing the new material.
 ***
