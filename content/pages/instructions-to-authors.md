@@ -109,7 +109,7 @@ Figures showing that the code simulates the same graphs as shown in the primary 
 *Discussion:*
 Discuss the results and the model reliability.
  
- *Figures:*
+*Figures:*
 <ul>
 <li> Ensure the graphs presented in the manuscript are the same as the ones produced by your submitted code. </li>
 <li>Use high quality images. Recommended image formats are .pdf for plots, graphs, and diagrams, and .jpg for photographic images. <a href="https://www.overleaf.com/learn/latex/Inserting_Images" target="_blank" rel="noopener noreferrer">Advice on image handling in Overleaf can be found here.</a> Maximum image size is 1MB. 
@@ -118,6 +118,9 @@ Discuss the results and the model reliability.
 <!-- <li>Label subplots in the upper left corner using capital letters. Label all axes and include units. </li> -->
 <!-- <li>Include a legend if the graph has multiple curves in the same plot. If you want to point out specific features of a graph, use inserts or arrows rather than incomplete representations of the graph. </li> 
  --></ul>
+
+*Bibliography:*
+We recommend that, where possible, the DOI be included in citations of academic papers. See sample.bib of the Overleaf template on how to include this.
 
 ##### __The source code__ <a name="source_code"></a>
 Source codes for the model implementation can be in procedural (e.g. Matlab, C, Python) or declarative (e.g. CellML, SBML, SED-ML) languages. 
