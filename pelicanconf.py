@@ -58,7 +58,7 @@ PAGE_URL = 'slug.html'
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 20
 CATEGORY_SAVE_AS = '{slug}/index.html'
 CATEGORY_URL = '{slug}/index.html'
 ARTICLE_URL = '{category}/{slug}.html'
