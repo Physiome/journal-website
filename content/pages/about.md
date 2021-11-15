@@ -48,7 +48,7 @@ To encourage best practice we propose to assign one of four levels to a *Physiom
 <li>The model obeys physical laws such as conservation of energy and conservation of mass or charge. For a lumped parameter model, this generally means that it has been implemented in bond graph form. For a partial differential equation continuum model, it means that the model has been formulated as a port-Hamiltonian system and implemented numerically in a mass and energy conserving form.</li>     
 </ol>
 Ideally, all models would reach level 4; we realise that this is unrealistic, at least in the short term. We hope that over time the *Physiome* community will increasingly come to expect models to adopt these high standards and that software will be developed to make it easier for authors to achieve that goal. 
-<div align="right"><h4><a href="#about"><i class="fa fa-angle-double-up"></i></a></h4></div>
+<div align="right"><h4><a href="#scope"><i class="fa fa-angle-double-up"></i></a></h4></div>
 ***
 <h3 id="definitions">Definitions</h3>
 
@@ -63,7 +63,7 @@ A model is **discoverable** when it has been annotated with metadata that descri
 
 A model is **validated** when its predictions under specified conditions match experimental observations.
 
-<div align="right"><h4><a href="#about"><i class="fa fa-angle-double-up"></i></a></h4></div>
+<div align="right"><h4><a href="#scope"><i class="fa fa-angle-double-up"></i></a></h4></div>
 
 
 
