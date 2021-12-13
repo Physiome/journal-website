@@ -1,5 +1,10 @@
-Title: Contact us
-Slug: contact-us
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+</html>
+<!-- Title: Contact us -->
+<!-- Slug: contact-us -->
 
 Contact
 --------------------

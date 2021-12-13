@@ -64,6 +64,7 @@ CATEGORY_URL = '{slug}/index.html'
 ARTICLE_URL = '{category}/{slug}.html'
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
+FILENAME_METADATA = '(?P<title>.*)'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

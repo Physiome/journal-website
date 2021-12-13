@@ -1,5 +1,10 @@
-Title: About the Journal
-Slug: about
+<html>
+    <head>
+        <title>About the Journal</title>
+    </head>
+</html>
+<!-- Title: About the Journal -->
+<!-- Slug: about -->
               
 <div id="scope"/>
 About the Journal

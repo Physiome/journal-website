@@ -1,5 +1,10 @@
-Title: FAQs
-Slug: faqs
+<html>
+    <head>
+        <title>Frequently Asked Questions</title>
+    </head>
+</html>
+<!-- Title: FAQs -->
+<!-- Slug: faqs -->
        
 <style>
 .hand {cursor: pointer;}

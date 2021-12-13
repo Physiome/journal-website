@@ -3,14 +3,15 @@
 {% block title %} {{page.title}} {% endblock %}
 {% block body %}
 <head>
-<style>
+    <title>{{article.title}}</title>
+    <style>
 
-/* Header/Logo Title */
-.header {font-size: 0.8em;}
+    /* Header/Logo Title */
+    .header {font-size: 0.8em;}
 
-/* Page Content */
-.content {}
-</style>
+    /* Page Content */
+    .content {}
+    </style>
 </head>
 
 <div class="header">
@@ -90,6 +91,15 @@
 <p>
 {% if article.abstract %}
 <b>Abstract:</b> {{article.abstract}}</p>
+{% endif %}
+
+
+
+{% if article.references %}
+    <b>References:</b> 
+    <p>
+    {{article.references}}
+    </p>
 {% endif %}
 
 {% if article.primarypaper %}

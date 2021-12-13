@@ -1,5 +1,10 @@
-Title: Editorial Board
-Slug: editorial-board
+<html>
+    <head>
+        <title>Editorial Board</title>
+    </head>
+</html>
+<!-- Title: Editorial Board -->
+<!-- Slug: editorial-board -->
 
 <!-- ### __*Physiome*__ -->
 <h2 style="color:#580078"><i>Physiome</i></strong></h2>
