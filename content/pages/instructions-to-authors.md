@@ -1,5 +1,10 @@
-Title: Instructions to Authors
-Slug: instructions-to-authors
+<html>
+    <head>
+        <title>Instructions to Authors</title>
+    </head>
+</html>
+<!-- Title: Instructions to Authors -->
+<!-- Slug: instructions-to-authors -->
 
 <h3 id="instructions"> </h3>
 

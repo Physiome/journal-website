@@ -1,5 +1,10 @@
-Title: The Physiome Project
-Slug: physiome-project
+<html>
+    <head>
+        <title>The Physiome Project</title>
+    </head>
+</html>
+<!-- Title: The Physiome Project -->
+<!-- Slug: physiome-project -->
 
 The Physiome Project
 --------------------

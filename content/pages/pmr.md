@@ -1,5 +1,10 @@
-Title: Physiome Model Repository
-Slug: pmr
+<html>
+    <head>
+        <title>Physiome Model Repository</title>
+    </head>
+</html>
+<!-- Title: Physiome Model Repository -->
+<!-- Slug: pmr -->
 
 Physiome Model Repository
 -----------------------
