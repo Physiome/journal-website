@@ -35,11 +35,13 @@ The following will be considered for publication in <i>Physiome</i>:
 
 **2.1 Original submission**
 
-Original submissions are author-initiated submissions directly associated with a primary experimental or modelling paper. While matching authorship between the <i>Physiome</i> submission and the primary publication is not a requirement, it is expected that there is some overlap. The <i>Physiome</i> team can help with reaching out to additional authors if needed.
+Original submissions are author-initiated submissions directly associated with a primary experimental or modelling paper, aiming to exactly reproduce the published model. While matching authorship between the <i>Physiome</i> submission and the primary publication is not a requirement, it is expected that there is some overlap. The <i>Physiome</i> team can help with reaching out to additional authors if needed.
 
 **2.2 Retrospectives**
 
 Similar to an original submission, but is associated with a historical Primary Publication which has been judged to be of substantial value to the physiological modelling community, such that a reusable, reproducible, and discoverable version of the study should be made available. Where possible, the authors of retrospective should include authors from the primary publication. Retrospectives may be invited by the <i>Physiome</i> editors or can be author-initiated. 
+
+Alternatively, a retrospective also applies to a submission which is a new implementation of the published model, with some changes made that broadly reproduce the primary paper's results.
 
 When submitting a retrospective, it is best to first submit an expression of interest to the editors outlining why the original primary publication should be considered a suitable contribution to <i>Physiome</i>.
 
