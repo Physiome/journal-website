@@ -35,7 +35,7 @@ Dr Anand Rampadarath, Curator, Auckland Bioengineering Institute, University of 
 
 Dr Weiwei Ai, Curator, Auckland Bioengineering Institute, University of Auckland
 
-Dr Nima Afshar Ghotli, Curator, Auckland Bioengineering Institute, University of Auckland
+Dr Leyla Noroozbabaee, Curator, Auckland Bioengineering Institute, University of Auckland
 
 ***
 <!-- ### __Physiome Incorporated Society__ -->
