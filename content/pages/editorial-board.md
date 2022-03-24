@@ -22,6 +22,8 @@ Professor Peter Hunter, EiC *Physiome*; Director, Auckland Bioengineering Instit
 
 Dr Daniel Hook, Digital Science; Washington University in St Louis, Imperial College London, University of Cambridge
 
+Professor Herbert Sauro, Director, Center for Reproducible Biomedical Modeling; Department of Bioengineering, University of Washington
+
 #### *Physiome* Editors and Curators
 Professor Peter Hunter, Editor in Chief; Director, Auckland Bioengineering Institute, University of Auckland
 
