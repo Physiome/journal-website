@@ -100,7 +100,7 @@ While there are many different types of models, file types and structures used b
 ##### __The manuscript__ <a name="manuscript"></a>
 This manuscript should only contain information pertaining to the reproduction of results of the primary paper. As such, information on background biology and study aims or conclusions should not be repeated from the primary paper. Furthermore, model parameter values and units may already be present in the model files associated with this <i>Physiome</i> submission, and thus do not need to be repeated within the manuscript.
 
-Below is the suggested information required in an original submission to <i>Physiome</i>.
+Below are the suggested sections to comprise a submission to <i>Physiome</i>.
 
 *Introduction:* 
 A brief explanation of the biological system modelled. Make sure to define the biological entities and species used in the primary papers. Clearly reference previously published iterations of the model to establish provenance, and any data that has been used for validation.
