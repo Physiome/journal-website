@@ -98,7 +98,9 @@ While there are many different types of models, file types and structures used b
   </div>
 
 ##### __The manuscript__ <a name="manuscript"></a>
-Below is listed the minimal information required in an original submission to <i>Physiome</i>. Any sections necessary to give a clear description of the model can be added or removed at the author's discretion. Note that information such as parameter values and units may already be present in the model files, and thus do not need to be repeated in the submission.
+This manuscript should only contain information pertaining to the reproduction of results of the primary paper. As such, information on background biology and study aims or conclusions should not be repeated from the primary paper. Furthermore, model parameter values and units may already be present in the model files associated with this <i>Physiome</i> submission, and thus do not need to be repeated within the manuscript.
+
+Below are the suggested sections to comprise a submission to <i>Physiome</i>.
 
 *Introduction:* 
 A brief explanation of the biological system modelled. Make sure to define the biological entities and species used in the primary papers. Clearly reference previously published iterations of the model to establish provenance, and any data that has been used for validation.
@@ -124,6 +126,7 @@ Discuss the results and the model reliability.
 <li>Use high quality images. Recommended image formats are PDF for plots, graphs, and diagrams, and JPG for photographic images. <a href="https://www.overleaf.com/learn/latex/Inserting_Images" target="_blank" rel="noopener noreferrer">Advice on image handling in Overleaf can be found here.</a> Maximum image size is 1MB. 
 <a href="https://www.overleaf.com/help/336-my-image-files-are-very-large" target="_blank" rel="noopener noreferrer">See here for treatment of large images.</a> </li>
 <li>Use a sans serif font for text in the figures, of at least 10pt font size in the final image in the manuscript. </li>
+<li>Figures copied from the primary paper (or elsewhere) must be used with permission from the original publisher. </li>
 <!-- <li>Label subplots in the upper left corner using capital letters. Label all axes and include units. </li> -->
 <!-- <li>Include a legend if the graph has multiple curves in the same plot. If you want to point out specific features of a graph, use inserts or arrows rather than incomplete representations of the graph. </li> 
  --></ul>
