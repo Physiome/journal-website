@@ -126,6 +126,7 @@ Discuss the results and the model reliability.
 <li>Use high quality images. Recommended image formats are PDF for plots, graphs, and diagrams, and JPG for photographic images. <a href="https://www.overleaf.com/learn/latex/Inserting_Images" target="_blank" rel="noopener noreferrer">Advice on image handling in Overleaf can be found here.</a> Maximum image size is 1MB. 
 <a href="https://www.overleaf.com/help/336-my-image-files-are-very-large" target="_blank" rel="noopener noreferrer">See here for treatment of large images.</a> </li>
 <li>Use a sans serif font for text in the figures, of at least 10pt font size in the final image in the manuscript. </li>
+<li>Figures copied from the primary paper (or elsewhere) must be used with permission from the original publisher. </li>
 <!-- <li>Label subplots in the upper left corner using capital letters. Label all axes and include units. </li> -->
 <!-- <li>Include a legend if the graph has multiple curves in the same plot. If you want to point out specific features of a graph, use inserts or arrows rather than incomplete representations of the graph. </li> 
  --></ul>
