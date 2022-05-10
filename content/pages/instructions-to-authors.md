@@ -154,7 +154,7 @@ This could be done, for example, by implementing it in bond graph form, or formu
 
  <div style = "text-align: center;">
  
-<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="testing.html" target="_blank" rel="noopener noreferrer" class="button"><i>Physiome</i> submission system</a>
+<a type="button" style="vertical-align: middle; text-align: center; background-color: #580078; color:white; border: 1px solid #580078;" href="https://submit.physiomeproject.org/" target="_blank" rel="noopener noreferrer" class="button"><i>Physiome</i> submission system</a>
 
   </div>
 
