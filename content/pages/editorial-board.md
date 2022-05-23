@@ -50,7 +50,7 @@ Professor Poul Nielsen, Chair, Auckland Bioengineering Institute, University of 
 
 Dr David Nickerson, Secretary, Physiome Aotearoa Fellow, Auckland Bioengineering Institute, University of Auckland
 
-Dr Shelley Fong, Treasurer, Auckland Bioengineering Institute, University of Auckland
+Dr Soroush Safaei, Treasurer, Auckland Bioengineering Institute, University of Auckland
 
 Dr Karin Lundengård, Communications, Linköping University
 
