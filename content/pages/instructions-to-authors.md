@@ -101,7 +101,7 @@ While there are many different types of models, file types and structures used b
 <div class="callout">
 	<p><strong>A <i>Physiome</i> article is designed to be read side-by-side with the associated primary paper.</strong></p>
 	
-	As such, this manuscript should only contain information pertaining to the reproduction of results of the primary paper; information on background biology and study aims or conclusions should not be repeated from the primary paper, and no new information is to be included. Furthermore, model parameter values and units may already be present in the model files associated with this <i>Physiome</i> submission, and thus do not need to be repeated within the manuscript.
+	As such, this manuscript should only contain information pertaining to the reproduction of results of the primary paper; information on background biology and study aims or conclusions should not be repeated from the primary paper, and no new information is to be included. Furthermore, model parameter values, units, and other information present in the model implementation files associated with this <i>Physiome</i> submission do not need to be repeated within the manuscript.
 </div>
 
 Below are the suggested sections to comprise a submission to <i>Physiome</i>.
