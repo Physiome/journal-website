@@ -29,15 +29,17 @@ Professor Peter Hunter, Editor in Chief; Director, Auckland Bioengineering Insti
 
 Dr David Nickerson, Editor; Senior Research Fellow, Auckland Bioengineering Institute, University of Auckland
 
-Dr Shelley Fong, Editor and Curator, Auckland Bioengineering Institute, University of Auckland
+Dr Rossana Occhipinti, Editor; Applied Mathematics, Case Western Reserve University
 
-Dr Karin Lundengård, Editor and Curator, Linköping University
+Dr Shelley Fong, Editor and Curator; Auckland Bioengineering Institute, University of Auckland
 
-Dr Anand Rampadarath, Curator, Auckland Bioengineering Institute, University of Auckland
+Dr Karin Lundengård, Editor and Curator; Center for Reproducible Biomedical Modeling
 
-Dr Weiwei Ai, Curator, Auckland Bioengineering Institute, University of Auckland
+Dr Weiwei Ai, Curator; Auckland Bioengineering Institute, University of Auckland
 
-Dr Leyla Noroozbabaee, Curator, Auckland Bioengineering Institute, University of Auckland
+Dr Leyla Noroozbabaee; Curator, Auckland Bioengineering Institute, University of Auckland
+
+Dr Anand Rampadarath; Center for Reproducible Biomedical Modeling - Reproducibility Curator
 
 ***
 <!-- ### __Physiome Incorporated Society__ -->
