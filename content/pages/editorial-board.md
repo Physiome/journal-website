@@ -29,7 +29,7 @@ Professor Peter Hunter, Editor in Chief; Director, Auckland Bioengineering Insti
 
 Dr David Nickerson, Editor; Senior Research Fellow, Auckland Bioengineering Institute, University of Auckland
 
-Dr Rossana Occhipinti, Editor; Applied Mathematics, Case Western Reserve University
+Dr Rossana Occhipinti, Editor; Department of Physiology & Biophysics, Case Western Reserve University
 
 Dr Shelley Fong, Editor and Curator; Auckland Bioengineering Institute, University of Auckland
 
